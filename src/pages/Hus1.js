@@ -5,9 +5,9 @@ import LightGallery from 'lightgallery/react';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import images2 from "../data/images-hus1-gallery";
-import 'lightgallery/css/lightgallery.css';
-import 'lightgallery/css/lg-zoom.css';
-import 'lightgallery/css/lg-thumbnail.css';
+import '../../node_modules/lightgallery/css/lightgallery.css';
+import '../../node_modules/lightgallery/css/lg-zoom.css';
+import '../../node_modules/lightgallery/css/lg-thumbnail.css';
 import Booknow from "../components/booknow"
 
 
