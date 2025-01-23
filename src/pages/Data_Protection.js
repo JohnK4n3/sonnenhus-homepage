@@ -4,7 +4,7 @@ function Data_Protection () {
     return (<main>
         
         <section className="footer-content-layout">
-        <div>
+        <div className="text-main">
             <h1>Datenschutzhinweise</h1>
 
             <p>Diese Seite wird betrieben von der <br/>
@@ -20,8 +20,8 @@ An der Wietze 18a <br/>
      
      <h2>Zugriffsdaten</h2>
      <p>Wir als Websitebetreiber bzw. unser Provider erhebt Daten über Zugriffe auf die Seite und speichert diese als „Server-Logfiles“ ab. Folgende Daten werden so protokolliert:
-     </p>
-     <ul>
+     </p> <br/>
+     <ul style={{listStylePosition:"inside"}}>
         <li>Besuchte Website</li>
 <li>Uhrzeit zum Zeitpunkt des Zugriffes</li>
 <li>Menge der gesendeten Daten in Byte</li>
@@ -29,7 +29,7 @@ An der Wietze 18a <br/>
 <li>Verwendeter Browser</li>
 <li>Verwendetes Betriebssystem</li>
 <li>Verwendete IP-Adresse.</li>
-     </ul>
+     </ul><br/>
      <p>Die erhobenen Daten dienen lediglich statistischen Auswertungen und zur Verbesserung der Website. Wir behalten uns allerdings vor, die Server-Logfiles nachträglich zu überprüfen, sollten konkrete Anhaltspunkte auf eine rechtswidrige Nutzung hinweisen.
      </p>
 
@@ -43,7 +43,7 @@ An der Wietze 18a <br/>
        <p>Nehmen Sie mit uns durch die angebotenen Kontaktmöglichkeiten Verbindung auf, werden Ihre Angaben gespeichert, damit auf diese zur Bearbeitung und Beantwortung Ihrer Anfrage zurückgegriffen werden kann. Ohne Ihre Einwilligung werden diese Daten nicht an Dritte weitergegeben. </p>
         
         <h2>Betroffenenrechte</h2>
-        <p>Sie können jederzeit gegenüber uns als den Verantwortlichen eine Bestätigung darüber verlangen, ob Ihre personenbezogenen Daten verarbeitet werden. Ist dies der Fall, haben Sie das Recht auf Auskunft darüber, welche personenbezogenen Daten bei uns verarbeitet wurden, zu welchem Zweck und über welche Dauer dies erfolgt; sowie die nachstehenden Rechte. Sie haben das Recht:</p>
+        <p>Sie können jederzeit gegenüber uns als den Verantwortlichen eine Bestätigung darüber verlangen, ob Ihre personenbezogenen Daten verarbeitet werden. Ist dies der Fall, haben Sie das Recht auf Auskunft darüber, welche personenbezogenen Daten bei uns verarbeitet wurden, zu welchem Zweck und über welche Dauer dies erfolgt; sowie die nachstehenden Rechte. Sie haben das Recht:</p> <br/>
         <ul style={{listStylePosition:"inside"}}>
             <li>gemäß Art. 7 Abs. 3 EU-DSGVO Ihre einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen; dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen, damit aber auch Ihre Buchung nicht bearbeiten könnten; 
             </li>

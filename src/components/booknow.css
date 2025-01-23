@@ -1,23 +1,23 @@
 .booknow {
-  padding: 30px;
-  position:fixed;
-  justify-content: right;
-  text-align: right;
-  width: 95%;
+ display:flex;
+ flex-direction:column;
+ position: sticky; 
+ text-align:right;
+  padding: 24px;
   color: white;
-  margin-right: 32px;
+  position:sticky;
 }
 
 button {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 400;
   padding: 15px 32px;
   background-color:rgb(218, 236, 246);
   border: none;
-  display: inline-block;
   border-radius: 12px;
   margin: 4px;
   cursor: pointer;
+  position:sticky;
 }
 
 button:hover {

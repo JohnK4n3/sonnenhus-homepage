@@ -12,17 +12,22 @@ import Navbar from './components/navbar';
 import Booknow from './components/booknow';
 import Footer from './components/footer';
 import Slideshow from './slideshow';
-
+import ScrollToTop from './components/scrollToTop';
+import MobileNavbar from "./components/mobileNavbar"
 
 function App() {
-
-
+ 
+ function componentDidMount() {
+    window.scrollTo(0, 0);
+}
 
   return (
     <div className="App">
         
 <Router> 
+  <ScrollToTop/>
 <Navbar/>
+<MobileNavbar/>
     <Routes>
         <Route path = "/" element = {<Hauptseite/>}>Hauptseite</Route>
         <Route path = "/hus1" element = {<Hus1/>}>Hus1</Route>
