@@ -16,7 +16,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
-    "homepage": "https://JohnK4n3.github.io/sonnenhus-homepage"
+    
   },
   "scripts": {
     "start": "react-scripts start",
