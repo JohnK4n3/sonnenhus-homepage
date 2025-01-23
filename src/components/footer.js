@@ -5,6 +5,7 @@ import GTC from "../pages/GTC";
 import Data_Protection from "../pages/Data_Protection";
 
 const Footer = () => {
+
     return (<>
         <div className="outer">
 

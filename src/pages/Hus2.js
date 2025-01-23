@@ -11,7 +11,7 @@ import Booknow from "../components/booknow"
 function Hus1() {
     let tick = String.fromCodePoint(10004);
     return (
-<><div className="flexcontainer"><Slideshow images={images} /> </div>
+<><div className="flexcontainer"><Slideshow images={images} style={{zIndex:"2"}}/> </div>
     <main>
     <section className="layout">
             <div>
@@ -44,7 +44,7 @@ function Hus1() {
          
         
 <section className="layout">
-    <div>
+    <div className="text-main">
     <h2>Eckdaten</h2>
 <p>
 <i className="Tickbox"><span>{`${tick}`}
@@ -67,12 +67,13 @@ function Hus1() {
 <strong>WLAN</strong>
 
 </p>
-
+</div>
 <div>
+<h2>Details zur Unterkunft</h2>
 <table>
            
 
-                <caption>Details zur Unterkunft</caption>
+               
                 <tr className="trleft">
                     <td className="tdleft">Schlafzimmer
                     </td>
@@ -103,14 +104,14 @@ function Hus1() {
                 </tr>
             </table>
 </div>
-</div>
+
 </section>
 <section className="layout"> <div>
+    <div>
     <h2>Preise</h2>
 
     
     <table>
-                        <caption>Preise</caption>
                         <tr className="trleft">
                             <td className="tdleft">Hauptsaison</td>
                             <td>Mindestens 7 Nächte</td>
@@ -131,6 +132,7 @@ function Hus1() {
                         </tr>
    
     </table>
+    </div>
     <div className="preise-liste">
     <ul>
         <li><b>Endreinigung:</b> 135€</li>
@@ -145,7 +147,7 @@ function Hus1() {
 
 
 
-    <iframe src="https://fewomanager.de/wid-kalender?ref=2557&amp;wid=4135" id="fewohus1" width="50%" height="370px" border="none"></iframe>
+    <iframe src="https://fewomanager.de/wid-kalender?ref=2557&amp;wid=4135" id="fewohus1" width="70%" height="370px" border="none"></iframe>
 
 </section>
 
