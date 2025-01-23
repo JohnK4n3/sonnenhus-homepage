@@ -1,0 +1,25 @@
+.booknow {
+  padding: 30px;
+  position:fixed;
+  justify-content: right;
+  text-align: right;
+  width: 95%;
+  color: white;
+  margin-right: 32px;
+}
+
+button {
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 15px 32px;
+  background-color:rgb(218, 236, 246);
+  border: none;
+  display: inline-block;
+  border-radius: 12px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(120, 63, 63);
+}
