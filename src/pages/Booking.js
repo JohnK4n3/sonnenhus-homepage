@@ -5,7 +5,7 @@ function Booking() {
 
     return (<>
     
-    <main className="layout-infos">
+    <main className="layout-infos" style={{marginBottom:"125px"}}>
         <div className="text-infos">
             <h1>Hus 1</h1>
 
