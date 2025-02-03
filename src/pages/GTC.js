@@ -3,7 +3,7 @@ import React from 'react';
 function GTC () {
     return (<main>
         <section className="footer-content-layout">
-            <div className="text-main">
+            <div className="text-footer-main">
             <h1>Allgemeine Geschäftsbedingungen</h1>
                 <h3>1. Allgemeines und Buchung</h3>
 <p>Eigentümer der gebuchten Ferienwohnung und Vertragspartner des Gastes ist die Kevekordes Lüchtefeld Fewo GbR, An der Wietze 18a, 30657 Hannover, vertreten durch Frau Monika Schulz, Wiesengrund 3a, 18528 Rappin. Der Beherbergungsvertrag mit dem Gast kommt zustande, wenn wir die Buchungsanfrage des Gastes schriftlich oder in Textform (E-Mail) bestätigen. Der Gast ist verpflichtet die Buchungsbestätigung auf ihre Richtigkeit zu überprüfen. Weicht die Buchungsbestätigung inhaltlich von der Buchungsanfrage ab und erhebt der Gast hiergegen nicht unverzüglich Einwendungen, so gilt der Inhalt der Buchungsbestätigung als vertraglich vereinbart. Wir weisen darauf hin, dass der Gast neben der Miete die Endreinigung der gebuchten Ferienwohnung zu zahlen hat. Die Kosten richten sich nach der Größe der Ferienwohnung und sind in dem Gesamtbetrag enthalten, der in der Buchungsbestätigung ausgewiesen ist und den der Gast zu zahlen hat. Für Bettwäsche und Handtücher samt Duschvorleger fallen gesondert ausgewiesene Gebühren an.

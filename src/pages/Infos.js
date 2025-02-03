@@ -2,16 +2,18 @@ import React from 'react';
 
 
 function Infos() {
-    return (<main>
-        <section className="layout-infos">
+    return (
+
+    <main>
+        
+        <section className="layout">
             <div>
                 <h1>Die Umgebung des Sonnenhus</h1>
         
-                <p width="50%">Das Ferienhaus Sonnenhus Breege/Rügen liegt am Breeger Bodden in der Gemeinde Breege (Ortsteil: Lobkevitz), dem nördlichsten Seebad der Insel Rügen. 
+                <p style={{width:"70%"}}>Das Ferienhaus Sonnenhus Breege/Rügen liegt am Breeger Bodden in der Gemeinde Breege (Ortsteil: Lobkevitz), dem nördlichsten Seebad der Insel Rügen. 
                 Genießen Sie die Natur und Ruhe abseits des Trubels oder nutzen Sie die Lage auf der Halbinsel Wittow – dem Windland - als Ausgangspunkt für zahlreiche Freizeitaktivitäten. 
                 Ob Sie die Insel erkunden, sportlich aktiv werden oder das Kulturangebot der Insel Rügen nutzen möchten – Lobkevitz bietet einen guten Ausgangspunkt für ihre Urlaubsaktivitäten.</p> </div>
             
-            <div className="table-outer">
                     <table>
                         <caption>Freizeitaktivitäten</caption>
                         <tr className="trleft">
@@ -52,11 +54,12 @@ function Infos() {
                             <td className="tdlast">Golfplatz Schloss Ranzow, Lohme, rd. 20 km</td>
                         </tr>
                     </table>
-                </div>
                 
        
   </section>
+  
    </main>
+ 
    )
 }
 export default Infos;

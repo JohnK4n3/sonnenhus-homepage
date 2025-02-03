@@ -4,7 +4,7 @@ function Imprint () {
     return (<main>
         <section className="footer-content-layout">
             
-            <div className="text-main">
+            <div className="text-main-footer">
             <h1>Impressum</h1>
 
             <p>Kevekordes Lüchtefeld Fewo GbR <br/>
