@@ -17,8 +17,8 @@ function Hus1() {
             <div>
             <Booknow></Booknow>
             </div>
-            <div className="text-main"><h1>Hus1</h1>
-            <p>Text zur Beschreibung des Hus1</p>
+            <div className="text-main"><h1>Hus 2</h1>
+            <p>Text zur Beschreibung des Hus 2</p>
             </div>
             
         

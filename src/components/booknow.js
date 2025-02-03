@@ -4,13 +4,8 @@ import { Link } from "react-router";
 import Booking from "../pages/Booking";
 
 const Booknow = () => {
-    return (<>
-        <div className="booknow">
-                <Link to="/buchung" element = {<Booking/>}>
-     <button type="button">
-          Jetzt buchen
-     </button></Link>
-        </div>
-    </>);
+    return (          
+        <Link to="/buchung" element = {<Booking/>} className="booknow">Jetzt buchen</Link>
+    );
 }
 export default Booknow;

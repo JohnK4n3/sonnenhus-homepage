@@ -10,7 +10,7 @@ import Booking from "../pages/Booking";
 const Navbar = () => {
   return (
       <nav className="nav-desktop">
-        <h1 className="navlogo">Sonnenhus</h1>
+        <Link to ="/" element = {<Hauptseite/>} className="nav-item"><h1 className="navlogo">Sonnenhus</h1></Link>
           <ul>
             <li><Link to ="/" element = {<Hauptseite/>}className="nav-item">Übersicht</Link></li>
             <li><Link to ="/hus1" element = {<Hus1/>} className="nav-item">Hus 1</Link></li>
