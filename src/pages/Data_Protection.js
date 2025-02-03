@@ -4,7 +4,7 @@ function Data_Protection () {
     return (<main>
         
         <section className="footer-content-layout">
-        <div className="text-main">
+        <div className="text-main-footer">
             <h1>Datenschutzhinweise</h1>
 
             <p>Diese Seite wird betrieben von der <br/>
@@ -46,18 +46,18 @@ An der Wietze 18a <br/>
         <p>Sie können jederzeit gegenüber uns als den Verantwortlichen eine Bestätigung darüber verlangen, ob Ihre personenbezogenen Daten verarbeitet werden. Ist dies der Fall, haben Sie das Recht auf Auskunft darüber, welche personenbezogenen Daten bei uns verarbeitet wurden, zu welchem Zweck und über welche Dauer dies erfolgt; sowie die nachstehenden Rechte. Sie haben das Recht:</p> <br/>
         <ul style={{listStylePosition:"inside"}}>
             <li>gemäß Art. 7 Abs. 3 EU-DSGVO Ihre einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen; dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen, damit aber auch Ihre Buchung nicht bearbeiten könnten; 
-            </li>
+            </li> <br/>
             <li>gemäß Art. 15 EU-DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen. 
                 Insbesondere können Sie Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, 
                 die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, 
                 das Bestehen eines Beschwerderechts, die Herkunft ihrer Daten, sofern diese nicht bei uns erhoben wurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung 
-                einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen;</li>
+                einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen;</li><br/>
         <li>gemäß Art. 16 EU-DSGVO unverzüglich die Berichtigung unrichtiger oder Vervollständigung Ihrer 
             bei uns gespeicherten personenbezogenen Daten zu verlangen;
-        </li>
-        <li>gemäß Art. 17 EU- DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist; </li>
-        <li>gemäß Art. 18 EU-DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von Ihnen bestritten wird, die Verarbeitung unrechtmäßig ist, Sie aber deren Löschung ablehnen und wir die Daten nicht mehr benötigen, Sie jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen oder Sie gemäß Art. 21 EU-DSGVO Widerspruch gegen die Verarbeitung eingelegt haben; </li>
-        <li>gemäß Art. 20 EU-DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen und </li>
+        </li><br/>
+        <li>gemäß Art. 17 EU- DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist; </li><br/>
+        <li>gemäß Art. 18 EU-DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von Ihnen bestritten wird, die Verarbeitung unrechtmäßig ist, Sie aber deren Löschung ablehnen und wir die Daten nicht mehr benötigen, Sie jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen oder Sie gemäß Art. 21 EU-DSGVO Widerspruch gegen die Verarbeitung eingelegt haben; </li><br/>
+        <li>gemäß Art. 20 EU-DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen und </li><br/>
         <li>gemäß Art.77 EU-DSGVO sich bei einer Aufsichtsbehörde zu beschweren. In der Regel können Sie sich hierfür an die Aufsichtsbehörde Ihres üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Sitzes wenden. </li>
         </ul>
             <br/>

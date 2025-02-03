@@ -20,7 +20,7 @@ function Hus1() {
 
 <main>
     <section className="layout">
-        <Booknow></Booknow>
+        {/* <Booknow></Booknow>// */}
         <div className="text-main"><h1>Hus 1</h1>
         <p>Text zur Beschreibung des Hus1</p>
         </div>
@@ -28,7 +28,7 @@ function Hus1() {
         
     </section>
     
-    <div><LightGallery
+    <div className="gallery-layout"><LightGallery
         images2={images2}
         speed={500}
         selector= "a"
@@ -106,33 +106,56 @@ function Hus1() {
 </div>
 
 </section>
-<section className="layout"> <div>
-    <div>
+<section style={{paddingBottom:"24px"}} className="layout"> 
+    
     <h2>Preise</h2>
 
+    <div className="preise-desktop">
+        <table style={{marginBottom:"30px"}}>
+                            <tr className="trleft">
+                                <td className="tdleft">Hauptsaison</td>
+                                <td>Mindestens 7 Nächte</td>
+                                <td>160€</td>
+                                <td>15. Juni bis 9. September 2025 und 22. Dezember 2025 bis 2. Januar 2025</td>
+                            </tr>
+                            <tr className="trleft">
+                                <td className="tdleft">Zwischensaison</td>
+                                <td>Mindestens 5 Nächte</td>
+                                <td>115€</td>
+                                <td>23. März bis 14. Juni und 10. September bis 3. November 2025</td>
+                            </tr>
+                            <tr className="trleft">
+                                <td className="tdleft tdlast">Nebensaison</td>
+                                <td className="tdlast">Mindestens 3 Nächte</td>
+                                <td className="tdlast">85€</td>
+                                <td className="tdlast">4. Januar bis 22. März und 4. November bis 21. Dezember 2025</td>
+                            </tr>
     
-    <table>
-                        <tr className="trleft">
-                            <td className="tdleft">Hauptsaison</td>
-                            <td>Mindestens 7 Nächte</td>
-                            <td>160€</td>
-                            <td>15. Juni bis 9. September 2025 und 22. Dezember 2025 bis 2. Januar 2025</td>
-                        </tr>
-                        <tr className="trleft">
-                            <td className="tdleft">Zwischensaison</td>
-                            <td>Mindestens 5 Nächte</td>
-                            <td>115€</td>
-                            <td>23. März bis 14. Juni und 10. September bis 3. November 2025</td>
-                        </tr>
-                        <tr className="trleft">
-                            <td className="tdleft tdlast">Nebensaison</td>
-                            <td className="tdlast">Mindestens 3 Nächte</td>
-                            <td className="tdlast">85€</td>
-                            <td className="tdlast">4. Januar bis 22. März und 4. November bis 21. Dezember 2025</td>
-                        </tr>
-   
-    </table>
+        </table>
+        </div>
+    <div className="preise-mobile">
+        <p><b>Hauptsaison:</b> 15. Juni bis 9. September 2025 und 22. Dezember 2025 bis 2. Januar 2025</p> 
+        <ul>
+            <li>Mindestens 7 Nächste</li>
+            <li>160€</li>
+        </ul>
+
+       <p><b>Zwischensaison:</b> 23. März bis 14. Juni und 10. September bis 3. November 2025 </p>
+        <ul>
+            <li>Mindestens 5 Nächste</li>
+            <li>115€</li>
+        </ul>
+
+       <p><b>Nebensaison:</b> 4. Januar bis 22. März und 4. November bis 21. Dezember 2025 </p> 
+        <ul>
+            <li>Mindestens 3 Nächste</li>
+            <li>85€</li>
+        </ul>
+
+
     </div>
+    
+    
 <div className="preise-liste">
     <ul>
         <li><b>Endreinigung:</b> 135€</li>
@@ -141,11 +164,12 @@ function Hus1() {
         <li><b>Optional:</b> Hund (max. 2) - pro Hund 5€/Nacht (Wir stellen Ihnen Hundenäpfe, ein Handtuch und Beutel zur Verfügung)</li>
     </ul>
 </div>
-</div>
+
 </section>
 <section className="layout">
-<iframe src="https://fewomanager.de/wid-kalender?ref=2557&amp;wid=4135" title="fewohus1" width="70%" height="370px" border="none"></iframe>
+<h1>Belegungskalender</h1>
 
+<iframe src="https://widget.fewomanager.cloud/calendar/4135" id="fewohus1" width="70%;" height="370px" frameborder="0"></iframe>
 </section>
 
     </main>
