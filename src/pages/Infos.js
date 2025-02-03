@@ -56,6 +56,7 @@ function Infos() {
                 
        
   </section>
-   </main> )
+   </main>
+   )
 }
 export default Infos;

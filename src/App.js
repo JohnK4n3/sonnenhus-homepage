@@ -38,7 +38,7 @@ function App() {
         <Route path = "/agb" element = {<GTC/>}>AGB</Route>
         <Route path = "/datenschutz" element = {<Data_Protection/>}>Datenschutz</Route>
     </Routes>
-        <Footer/>
+  <Footer/>
 </Router>
       
     </div>

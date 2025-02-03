@@ -11,9 +11,7 @@ function Hauptseite() {
         <main style={{marginTop:"25px"}}>
         <div><Booknow></Booknow></div>
             <section className="layout">
-                
-                
-               
+                             
                  
                
                     <h1>Sonnenhus Breege</h1>

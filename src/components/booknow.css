@@ -1,25 +1,17 @@
 .booknow {
- display:flex;
- flex-direction:column;
- position: sticky; 
- text-align:right;
-  padding: 24px;
-  color: white;
-  position:sticky;
+ position: fixed; 
+ right: 24px;
+ bottom: 150px;
+ padding: 24px;
+ border-radius: 8px;
+ background-color: rgb(156, 227, 228);
+ text-align:center;
+ line-height: 100%;
+ font-weight: 600;
+ color: rgb(0, 0, 0);
+ z-index:10;
 }
 
-button {
-  font-size: 1.1rem;
-  font-weight: 400;
-  padding: 15px 32px;
-  background-color:rgb(218, 236, 246);
-  border: none;
-  border-radius: 12px;
-  margin: 4px;
-  cursor: pointer;
-  position:sticky;
-}
-
-button:hover {
+.booknow:hover {
   color: rgb(120, 63, 63);
 }
