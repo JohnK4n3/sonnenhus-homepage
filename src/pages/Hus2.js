@@ -84,7 +84,11 @@ function Hus1() {
                 </tr>
                 <tr className="trleft">
                     <td className="tdleft">Küche</td>
-                    <td>voll ausgestattet mit Spülmaschine, Kühlschrank mit Gefrierfach, Herd, Ofen, Wasserkocher, Kaffeemaschine, Toaster</td>
+                    <td>voll ausgestattet mit Spülmaschine, Kühlschrank mit Gefrierfach, Herd, Mikrowelle, Ofen, Wasserkocher, Kaffeemaschine, Toaster</td>
+                </tr>
+                <tr className="trleft"> 
+                    <td className="tdleft">Kaminofen</td>
+                    <td>ab dem 1.10 eines Jahres mit einer Holzfüllung</td>
                 </tr>
                 <tr className="trleft">
                     <td className="tdleft">Garten</td>
@@ -152,9 +156,9 @@ function Hus1() {
     <div className="preise-liste">
     <ul>
         <li><b>Endreinigung:</b> 135€</li>
-        <li><b>Wäschepaket:</b> 12€/Person (Bettwäsche, ein großes und ein kleines Handtuch</li>
+        <li><b>Wäschepaket:</b> 20€/Person (Bettwäsche, ein großes und ein kleines Handtuch</li>
         <li><a href="https://www.breege.de/service/kurabgabe/">Kurtaxe</a> gemäß der Vorgaben der Gemeinde Breege</li>
-        <li><b>Optional:</b> Hund (max. 2) - pro Hund 5€/Nacht (Wir stellen Ihnen Hundenäpfe, ein Handtuch und Beutel zur Verfügung)</li>
+        <li><b>Optional:</b> Hund (max. 2) - pro Hund 8€/Nacht (Wir stellen Ihnen Hundenäpfe, ein Handtuch und Beutel zur Verfügung)</li>
     </ul>
 </div>
 
