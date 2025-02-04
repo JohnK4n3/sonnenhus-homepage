@@ -163,12 +163,18 @@ function Hus1() {
 </div>
 
 </section>
-<section className="layout">
+<section className="calendar-desktop">
 
 <h1>Belegungskalender</h1>
 
 
     <iframe src="https://widget.fewomanager.cloud/calendar/4061" id="fewohus2" width="70%;" height="370px" frameborder="0"></iframe>
+</section>
+<section className="calendar-mobile">
+<h1>Belegungskalender</h1>
+
+
+<iframe src="https://widget.fewomanager.cloud/calendar/4061" id="fewohus2" width="100%;" height="370px" frameborder="0"></iframe>
 </section>
 
     </main>

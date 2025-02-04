@@ -176,6 +176,7 @@ footer {
 
 .footer-col > p,a,b {
   font-family: "inter";
+  color:inherit;
 }
 /**Navbar**/
 
@@ -319,6 +320,15 @@ li > svg {
   padding-bottom: 20px;
 }
 
+.layout-booking {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 100vw;
+    overflow: hidden;
+    color:#b0b0b0
+  }
 
 .Tickbox {
   padding: 0 10px; 
@@ -359,7 +369,14 @@ color: blue
   color:inherit;
 }
   
+.calendar-desktop {
+    display: flex;
+    flex-direction: column;
+}
 
+.calendar-mobile {
+  display:none;
+}
 
 /*Infos*/
 
@@ -810,11 +827,15 @@ align-items: center;
   .nav-mobile{
         display: flex;
         flex-direction: row;
+        top: 0;
         align-items: center;
         justify-content:space-between;
         height: 64px;
         padding: 8px;
         background: #d3deef;
+        width: 100%;
+  position: sticky;
+  z-index: 100;
     }
     .HamburgerMenu{
       cursor: pointer;
@@ -857,6 +878,11 @@ align-items: center;
     color:rgb(120, 63, 63);
   }
 
+  .text-main {
+    width:100%;
+  }
+
+
   .preise-desktop {
     display:none;
   }
@@ -867,10 +893,24 @@ align-items: center;
     list-style-position:inside;
     row-gap: 4px;
   }
+.preise-mobile ul {
+  padding: 15px 0;
+}
 
- .preise-liste {
-  padding-top:24px;
+ .calendar-desktop {
+  display:none;
  }
+
+ .calendar-mobile {
+  display:flex;
+  flex-direction: column;
+ }
+
+.layout-booking {
+  display:flex; 
+  flex-direction: column;
+  row-gap: 6px;
+}
 
   footer {
     flex-direction: column;
