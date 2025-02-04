@@ -7,12 +7,13 @@ function Infos() {
     <main>
         
         <section className="layout">
-            <div>
+            <div className="text-main">
                 <h1>Die Umgebung des Sonnenhus</h1>
         
-                <p style={{width:"70%"}}>Das Ferienhaus Sonnenhus Breege/Rügen liegt am Breeger Bodden in der Gemeinde Breege (Ortsteil: Lobkevitz), dem nördlichsten Seebad der Insel Rügen. 
+                <p>Das Ferienhaus Sonnenhus Breege/Rügen liegt am Breeger Bodden in der Gemeinde Breege (Ortsteil: Lobkevitz), dem nördlichsten Seebad der Insel Rügen. 
                 Genießen Sie die Natur und Ruhe abseits des Trubels oder nutzen Sie die Lage auf der Halbinsel Wittow – dem Windland - als Ausgangspunkt für zahlreiche Freizeitaktivitäten. 
-                Ob Sie die Insel erkunden, sportlich aktiv werden oder das Kulturangebot der Insel Rügen nutzen möchten – Lobkevitz bietet einen guten Ausgangspunkt für ihre Urlaubsaktivitäten.</p> </div>
+                Ob Sie die Insel erkunden, sportlich aktiv werden oder das Kulturangebot der Insel Rügen nutzen möchten – Lobkevitz bietet einen guten Ausgangspunkt für ihre Urlaubsaktivitäten.</p> 
+            </div>
             
                     <table>
                         <caption>Freizeitaktivitäten</caption>
