@@ -25,9 +25,9 @@ function App() {
     <div className="App">
         
 <Router> 
-  <ScrollToTop/>
-<Navbar/>
-<MobileNavbar/>
+<ScrollToTop/>
+  <Navbar/>
+  <MobileNavbar/>
     <Routes>
         <Route path = "/" element = {<Hauptseite/>}>Hauptseite</Route>
         <Route path = "/hus1" element = {<Hus1/>}>Hus1</Route>
