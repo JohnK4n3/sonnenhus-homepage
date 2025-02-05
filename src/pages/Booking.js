@@ -5,10 +5,13 @@ function Booking() {
 
 
     return (
-    
+    <article className="wrapper">
+      <h1>Buchung</h1>
     <main className="layout-booking">
+       
+        
         <div className="text-infos">
-            <h1>Hus 1</h1>
+            <h2>Hus 1</h2>
 
             <div>
                  
@@ -17,7 +20,7 @@ function Booking() {
         </div>
        
         <div className="text-infos">
-           <h1>Hus 2</h1>
+           <h2>Hus 2</h2>
            <div>
            <iframe src="https://widget.fewomanager.cloud/booking/3823#R3814" width="100%;" height="750px" frameborder="0"></iframe>
                 </div>
@@ -25,6 +28,7 @@ function Booking() {
        
         
    </main> 
+   </article>
    )
 }
 export default Booking;

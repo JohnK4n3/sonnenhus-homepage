@@ -4,7 +4,7 @@ import React from 'react';
 function Infos() {
     return (
 
-    <main>
+    <main style={{backgroundColor:"rgb(255, 255, 255)"}}>
         
         <section className="layout">
             <div className="text-main">

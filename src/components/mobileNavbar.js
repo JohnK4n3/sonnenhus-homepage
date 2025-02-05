@@ -33,7 +33,7 @@ import { useState, useEffect, useRef } from "react";
       
     return (
       <nav className="nav-mobile">
-        <Link to ="/" element = {<Hauptseite/>} className="nav-item"><h1 className="navlogo">Sonnenhus</h1></Link>
+        <Link to ="/" element = {<Hauptseite/>} className="navlogo">Sonnenhus</Link>
         <button onClick={toggle} className="mobile-menu">
           {Hamburger}
           </button>          

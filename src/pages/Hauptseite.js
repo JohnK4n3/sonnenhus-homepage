@@ -4,7 +4,6 @@ import Slideshow from '../slideshow';
 import Booknow from '../components/booknow';
 
 
-
 function Hauptseite() {
     return (<>
    
@@ -38,11 +37,13 @@ function Hauptseite() {
                 </div>
                          
                     <div className="address-mainsite">
-                        <p><a href="https://maps.google.com/maps/place/Sonnenhus/@54.6006458,13.3235124,15z/data=!4m5!3m4!1s0x0:0xfe1ab717a06800ea!8m2!3d54.6006458!4d13.3235124"><b>Adresse</b></a>: Lobkevitz 23, 18556 Breege</p>
+                        <p>Adresse: <a href="https://maps.google.com/maps/place/Sonnenhus/@54.6006458,13.3235124,15z/data=!4m5!3m4!1s0x0:0xfe1ab717a06800ea!8m2!3d54.6006458!4d13.3235124">Lobkevitz 23, 18556 Breege</a></p>
                    
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.18540320286!2d13.321807315886103!3d54.60072638026102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ab5167e1ab533d%3A0xfe1ab717a06800ea!2sSonnenhus!5e0!3m2!1sde!2sde!4v1630762168499!5m2!1sde!2sde" width="80%" height="350" border="0" padding="24px 0" allowfullscreen="true" loading="lazy"/>
                 
                      </div>
+
+                
                 
             </section>
      </main>

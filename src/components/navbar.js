@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { NavLink } from "react-router";
 import Hauptseite from "../pages/Hauptseite";
 import Hus1 from "../pages/Hus1";
 import Hus2 from "../pages/Hus2";
@@ -10,13 +10,13 @@ import Booking from "../pages/Booking";
 const Navbar = () => {
   return (
       <nav className="nav-desktop">
-        <Link to ="/" element = {<Hauptseite/>} className="nav-item"><h1 className="navlogo">Sonnenhus</h1></Link>
+       <NavLink to ="/" element = {<Hauptseite/>} className="navlogo">Sonnenhus</NavLink>
           <ul>
-            <li><Link to ="/" element = {<Hauptseite/>}className="nav-item">Übersicht</Link></li>
-            <li><Link to ="/hus1" element = {<Hus1/>} className="nav-item">Hus 1</Link></li>
-            <li><Link to ="/hus2" element = {<Hus2/>} className="nav-item">Hus 2</Link></li>
-            <li><Link to ="/infos" element = {<Infos/>} className="nav-item">Informationen</Link></li>
-            <li><Link to = "/buchung" element = {<Booking/>} className="nav-item">Buchungsanfrage</Link></li>
+            <li><NavLink to ="/" element = {<Hauptseite/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Übersicht</NavLink></li>
+            <li><NavLink to ="/hus1" element = {<Hus1/>} className="nav-item">Hus 1</NavLink></li>
+            <li><NavLink to ="/hus2" element = {<Hus2/>} className="nav-item">Hus 2</NavLink></li>
+            <li><NavLink to ="/infos" element = {<Infos/>} className="nav-item">Informationen</NavLink></li>
+            <li><NavLink to = "/buchung" element = {<Booking/>} className="nav-item">Buchung</NavLink></li>
           </ul>
       </nav>
   );

@@ -1,15 +1,12 @@
 .booknow {
- position: fixed; 
- right: 24px;
- bottom: 150px;
- padding: 24px;
+ padding: 16px;
+ margin-top: 45px;
  border-radius: 8px;
  background-color: rgb(156, 227, 228);
  text-align:center;
  line-height: 100%;
  font-weight: 600;
  color: rgb(0, 0, 0);
- z-index:10;
 }
 
 .booknow:hover {
