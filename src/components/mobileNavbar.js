@@ -43,7 +43,7 @@ import { useState, useEffect, useRef } from "react";
                 <Link to ="/hus1" element = {<Hus1/>} className="nav-item" onClick= {toggle}>Hus 1</Link>
                 <Link to ="/hus2" element = {<Hus2/>} className="nav-item" onClick= {toggle}>Hus 2</Link>
                 <Link to ="/infos" element = {<Infos/>} className="nav-item" onClick= {toggle}>Informationen</Link>
-                <Link to = "/buchung" element = {<Booking/>} className="nav-item" onClick= {toggle}>Buchungsanfrage</Link>
+                <Link to = "/buchung" element = {<Booking/>} className="nav-item" onClick= {toggle}>Buchung</Link>
               </div>
        ) }
       </nav>

@@ -1,3 +1,14 @@
+:root {
+  var-lightblue: rgb(207, 217, 226);
+  --lightblue: rgb(207, 217, 226);
+
+  var-beige: rgb(255, 252, 245);
+  --beige:rgb(255, 252, 245);
+
+  var-linkhover: rgb(120, 63, 63);
+  --linkhover: rgb(120, 63, 63);
+}
+
 
 * {
   box-sizing: border-box;
@@ -140,12 +151,12 @@ table {
 footer {
   bottom: 0;
   width: 100vw;
-  height:125px;
+  height:135px;
   /* margin: 0; */
   margin-top:auto;
   padding: 40px 24px;
   /* background-color: #f3fbff; */
-  background-color: rgb(255, 252, 245);
+  background-color: var(--beige);
   display: flex;
   flex-direction: row;
   column-gap: 24px;
@@ -195,7 +206,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   /* background-color: #f3fbff; */
-  background-color: rgb(255, 252, 245);
+  background-color: var(--beige);
   padding: 8px 24px;
   height: 80px;
   width: 100%;
@@ -230,8 +241,14 @@ nav > ul {
   font-weight:400;
   display: inline;
   padding: 4px 12px;
-};
+}
 
+.nav-item-active {
+  color: rgb(120, 63, 63); 
+  font-weight: 600; 
+  font-family:"inter";
+  padding: 4px 12px; 
+}
 
 
 /*Heading*/
@@ -268,6 +285,8 @@ padding: 24px 0;
 text-decoration:underline;
 color: blue;
 }
+
+
 
 .text-main ul{
   list-style: none;
@@ -837,6 +856,10 @@ align-items: center;
   
 }
 
+.address-mainsite a{
+  text-decoration:underline;
+}
+
 @media (max-width: 820px){
 
   main {
@@ -855,7 +878,7 @@ align-items: center;
         justify-content:space-between;
         height: 64px;
         padding: 8px;
-        background: #d3deef;
+        background: var(--beige);
         width: 100%;
   position: sticky;
   z-index: 100;
@@ -872,12 +895,12 @@ align-items: center;
       align-items: center;
       justify-content: center;
       padding: 8px;
-      border-radius: 8px;
       background-color: transparent;
     }
 
     .nav-item {
       padding: 8px;
+      font-size: 22px;
     }
 
   .mobile-links{
@@ -886,11 +909,12 @@ align-items: center;
     justify-content: flex-end;
     position: absolute;
     z-index:289;
-    border-top: 3px solid rgb(88, 123, 197, 0.7);
+    border-top: 3px solid rgba(103, 120, 155, 0.7);
     top: 64px;
     right: 0;
     padding:8px 16px;
-    background:rgb(207, 217, 226);
+    background:var(--lightblue);
+    border-radius: 6px;
   }
   
   .mobile-links li{
