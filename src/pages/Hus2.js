@@ -142,7 +142,7 @@ function Hus1() {
             <li>105€</li>
         </ul>
 
-       <p><b>Nebensaison:</b> 4. Januar bis 11. April 4. November bis 23. Dezember 2025 </p> 
+       <p><b>Nebensaison:</b> 4. Januar bis 11. April und 4. November bis 23. Dezember 2025 </p> 
         <ul>
             <li>Mindestens 3 Nächste</li>
             <li>75€</li>
@@ -153,7 +153,7 @@ function Hus1() {
 
     <div className="preise-liste">
     <ul>
-        <li><b>Endreinigung:</b> 135€</li>
+        <li><b>Endreinigung:</b> 90€</li>
         <li><b>Wäschepaket:</b> 20€/Person (Bettwäsche, ein großes und ein kleines Handtuch)</li>
         <li><a href="https://www.breege.de/service/kurabgabe/">Kurtaxe</a> gemäß der Vorgaben der Gemeinde Breege</li>
         <li><b>Optional:</b> Hund (max. 2) - pro Hund 8€/Nacht (Wir stellen Ihnen Hundenäpfe, ein Handtuch und Beutel zur Verfügung)</li>
