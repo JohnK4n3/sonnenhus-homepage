@@ -106,7 +106,7 @@ function Hus1() {
 </div>
 
 </section>
-<section style={{paddingBottom:"24px"}} className="layout"> 
+<section className="layout"> 
     
     <h2>Preise</h2>
 
@@ -115,20 +115,20 @@ function Hus1() {
                             <tr className="trleft">
                                 <td className="tdleft">Hauptsaison</td>
                                 <td>Mindestens 7 Nächte</td>
-                                <td>160€</td>
-                                <td>15. Juni bis 9. September 2025 und 22. Dezember 2025 bis 2. Januar 2025</td>
+                                <td>170€</td>
+                                <td>15. Juni bis 9. September 2025 und 24. Dezember 2025 bis 4. Januar 2025</td>
                             </tr>
                             <tr className="trleft">
                                 <td className="tdleft">Zwischensaison</td>
                                 <td>Mindestens 5 Nächte</td>
-                                <td>115€</td>
-                                <td>23. März bis 14. Juni und 10. September bis 3. November 2025</td>
+                                <td>120€</td>
+                                <td>12. April bis 14. Juni und 10. September bis 3. November 2025</td>
                             </tr>
                             <tr className="trleft">
                                 <td className="tdleft tdlast">Nebensaison</td>
                                 <td className="tdlast">Mindestens 3 Nächte</td>
                                 <td className="tdlast">85€</td>
-                                <td className="tdlast">4. Januar bis 22. März und 4. November bis 21. Dezember 2025</td>
+                                <td className="tdlast">4. Januar bis 11. April und 4. November bis 23. Dezember 2025</td>
                             </tr>
     
         </table>

@@ -20,9 +20,6 @@ const AutoHeight = () => {
         };
     }, []);
 
-    return (
-        <iframe id="bookingFrame" src="https://widget.fewomanager.cloud/booking/4488#R3636" style={{ width: '100%', height: '100%' }} />
-    );
 };
 
 export default AutoHeight;

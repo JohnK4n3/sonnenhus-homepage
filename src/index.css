@@ -73,7 +73,8 @@ h1 {
   font-size: 1.8rem;
   font-weight: 300;
   color: black;
-  padding-bottom: 24px;
+  /* padding-bottom: 24px; */
+  padding: 24px 0;
 }
 
 h2 {
@@ -156,7 +157,7 @@ footer {
   margin-top:auto;
   padding: 40px 24px;
   /* background-color: #f3fbff; */
-  background-color: var(--beige);
+  background-color: var(--lightblue);
   display: flex;
   flex-direction: row;
   column-gap: 24px;
@@ -206,7 +207,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   /* background-color: #f3fbff; */
-  background-color: var(--beige);
+  background-color: var(--lightblue);
   padding: 8px 24px;
   height: 80px;
   width: 100%;
@@ -234,6 +235,7 @@ nav > ul {
   font-family: "Lato";
   padding-bottom: 0;
 }
+
 
 .nav-item {
   color: black; 
@@ -365,12 +367,15 @@ li > svg {
 .wrapper {
   display:flex;
   flex-direction:column;
+  margin-bottom: -135px;
+  height: 100vh;
   
 }
 
 .wrapper h1 {
-padding: 10px 24px;
-font-size: 2.3 rem;
+padding: 10px 48px;
+font-size: 40px;
+font-weight:600;
 }
 
 .Tickbox {
@@ -426,7 +431,7 @@ color: blue
 .text-infos {
   display:flex;
   flex-direction: column;
-  width: 70vw;
+  flex: 1;
 }
 
 
@@ -878,7 +883,7 @@ align-items: center;
         justify-content:space-between;
         height: 64px;
         padding: 8px;
-        background: var(--beige);
+        background: var(--lightblue);
         width: 100%;
   position: sticky;
   z-index: 100;
@@ -900,7 +905,7 @@ align-items: center;
 
     .nav-item {
       padding: 8px;
-      font-size: 22px;
+      font-size: 16px;
     }
 
   .mobile-links{
@@ -929,6 +934,7 @@ align-items: center;
     width:100%;
   }
 
+ 
 
   .preise-desktop {
     display:none;
@@ -982,5 +988,18 @@ align-items: center;
     text-align: left;
     font-family:"inter";
   }
+  .tdleft {
+    text-align: left;
+    font-weight:bold;
+    padding: 15px 0;
+    border-left: rgba(0, 0, 0, 0);
+   min-width: 125px!important;
+  }
+ 
+.wrapper {
+  margin-bottom:0px;
+  height:auto
+}
+
 
   }

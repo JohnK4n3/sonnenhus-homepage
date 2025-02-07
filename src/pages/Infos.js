@@ -52,11 +52,11 @@ function Infos() {
                         </tr>
                         <tr className="trleft">
                             <td className="tdleft tdlast">Golf</td>
-                            <td className="tdlast">Golfplatz Schloss Ranzow, Lohme, rd. 20 km</td>
+                            <td className="tdlast">Golfplatz Schloss Ranzow, Lohme, rund 20 km</td>
                         </tr>
                     </table>
                 
-       
+                    {/* <iframe src="https://www.komoot.com/de-de/tour/2046099845/embed?share_token=aHhIIZOVZE7aBmCO3oJFCKH2yf2jpTp28g021909VGlmC16Wyi&gallery=1" width="100%" height="600" frameborder="0" scrolling="no"></iframe> */}
   </section>
   
    </main>
