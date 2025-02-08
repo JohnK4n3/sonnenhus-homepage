@@ -21,6 +21,7 @@
     line-height: 130%;
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #3D3D3D;
 }
 
 /* Icons */
@@ -206,8 +207,9 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  color: #342f73;
   /* background-color: #f3fbff; */
-  background-color: var(--lightblue);
+  background-color: rgb(227 240 255);
   padding: 8px 24px;
   height: 80px;
   width: 100%;
@@ -230,7 +232,7 @@ nav > ul {
 .navlogo {
   /* padding:5px; */
   font-weight: 700;
-  color:rgba(0, 0, 0,);
+  color:rgb(69, 36, 36);
   font-size: 2.1rem;
   font-family: "Lato";
   padding-bottom: 0;
@@ -372,9 +374,9 @@ li > svg {
   
 }
 
-.wrapper h1 {
-padding: 10px 48px;
-font-size: 40px;
+.wrapper p {
+padding: 24px 48px;
+font-size: 24px;
 font-weight:600;
 }
 
@@ -405,6 +407,8 @@ list-style-type: none;
 display: flex;
 flex-direction: column;
 gap: 16px;
+border: 1px solid black;
+padding: 12px;
 }
 
 .preise-liste ul li a{
@@ -854,11 +858,15 @@ align-items: center;
 }
 
 
-.address-mainsite {
+.address-mainsite-desktop {
   display:flex;
   flex-direction:column;
   row-gap: 20px;
   
+}
+
+.address-mainsite-mobile {
+  display:none;
 }
 
 .address-mainsite a{
@@ -883,7 +891,8 @@ align-items: center;
         justify-content:space-between;
         height: 64px;
         padding: 8px;
-        background: var(--lightblue);
+        color: #342f73;
+        background: rgb(227 240 255);
         width: 100%;
   position: sticky;
   z-index: 100;
@@ -963,6 +972,16 @@ align-items: center;
   display:flex; 
   flex-direction: column;
   row-gap: 6px;
+}
+
+.address-mainsite-desktop {
+  display:none;
+}
+
+.address-mainsite-mobile {
+  display:flex;
+  flex-direction:column;
+  row-gap: 20px;
 }
 
   footer {
