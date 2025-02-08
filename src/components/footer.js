@@ -9,7 +9,7 @@ const Footer = () => {
     return (<>
         <footer>
             <div className="footer-col">
-                <p>Lobkevitz 23 <br/>18556 Breege</p>
+                <p>Lobkevitz 23a <br/>18556 Breege</p>
             </div>    
             <div className="footer-col">
                 <ul className="footnotes">
