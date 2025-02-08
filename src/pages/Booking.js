@@ -6,7 +6,9 @@ function Booking() {
 
     return (
     <article className="wrapper">
-      <h1>Buchung</h1>
+      {/* <h1>Buchung</h1> */}
+      <p>Nutzen Sie gerne das Buchungstool, um Ihren Aufenthalt bei uns verbindlich zu buchen.</p>
+      <br/>
     <main className="layout-booking">
        
         

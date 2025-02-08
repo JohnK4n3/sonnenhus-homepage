@@ -12,10 +12,11 @@ import { useState, useEffect, useRef } from "react";
   const MobileNavbar = () => {
     const [click, setClick] = useState(false);
     const menuRef = useRef(null);
+    const hamburgerRef = useRef(null);
     const toggle = () => {setClick(!click)};
   
     const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
+      if (menuRef.current && !menuRef.current.contains(event.target) && !hamburgerRef.current.contains(event.target)) {
           setClick(false);
       }
   };
@@ -34,7 +35,7 @@ import { useState, useEffect, useRef } from "react";
     return (
       <nav className="nav-mobile">
       <Link to="/" element={<Hauptseite />} className="navlogo">Sonnenhus</Link>
-      <button onClick={toggle} className="mobile-menu">
+      <button ref={hamburgerRef} onClick={toggle} className="mobile-menu">
         {Hamburger}
       </button>
       {click && (

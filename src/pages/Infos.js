@@ -13,10 +13,13 @@ function Infos() {
                 <p>Das Ferienhaus Sonnenhus Breege/Rügen liegt am Breeger Bodden in der Gemeinde Breege (Ortsteil: Lobkevitz), dem nördlichsten Seebad der Insel Rügen. 
                 Genießen Sie die Natur und Ruhe abseits des Trubels oder nutzen Sie die Lage auf der Halbinsel Wittow – dem Windland - als Ausgangspunkt für zahlreiche Freizeitaktivitäten. 
                 Ob Sie die Insel erkunden, sportlich aktiv werden oder das Kulturangebot der Insel Rügen nutzen möchten – Lobkevitz bietet einen guten Ausgangspunkt für ihre Urlaubsaktivitäten.</p> 
+                <br/>
             </div>
             
                     <table>
-                        <caption>Freizeitaktivitäten</caption>
+                        <thead>     <caption>Freizeitaktivitäten</caption></thead>
+                   
+                        <tbody>
                         <tr className="trleft">
                             <td className="tdleft">Strand</td>
                             <td>Juliusruh/Schaabe, 4,6 km, Nordstrand, Kap Arkona, Dranske <br/> 
@@ -54,6 +57,7 @@ function Infos() {
                             <td className="tdleft tdlast">Golf</td>
                             <td className="tdlast">Golfplatz Schloss Ranzow, Lohme, rund 20 km</td>
                         </tr>
+                        </tbody>
                     </table>
                 
                     {/* <iframe src="https://www.komoot.com/de-de/tour/2046099845/embed?share_token=aHhIIZOVZE7aBmCO3oJFCKH2yf2jpTp28g021909VGlmC16Wyi&gallery=1" width="100%" height="600" frameborder="0" scrolling="no"></iframe> */}
