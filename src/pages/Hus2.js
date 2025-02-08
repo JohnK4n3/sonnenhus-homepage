@@ -156,7 +156,7 @@ function Hus1() {
         <li>Endreinigung:90€</li>
         <li>Wäschepaket 20€/Person (Bettwäsche, ein großes und ein kleines Handtuch)</li>
         <li><a href="https://www.breege.de/service/kurabgabe/">Kurtaxe</a> gemäß der Vorgaben der Gemeinde Breege</li>
-        <li>Optional: maximal ein Hund - 8€/Nacht (Wir stellen Ihnen Hundenäpfe, ein Handtuch und Beutel zur Verfügung)</li>
+        <li>Maximal ein Hund - 8€/Nacht (Wir stellen Ihnen Hundenäpfe, ein Handtuch und Beutel zur Verfügung)</li>
     </ul>
 </div>
 
