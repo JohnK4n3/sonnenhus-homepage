@@ -14,6 +14,7 @@ import Footer from './components/footer';
 import Slideshow from './slideshow';
 import ScrollToTop from './components/scrollToTop';
 import MobileNavbar from "./components/mobileNavbar"
+import Request from "./pages/Request"
 
 function App() {
  
@@ -33,7 +34,8 @@ function App() {
         <Route path = "/hus1" element = {<Hus1/>}>Hus1</Route>
         <Route path = "/hus2" element = {<Hus2/>}>Hus2</Route>
         <Route path = "/infos" element = {<Infos/>}>Informationen</Route>
-        <Route path = "/buchung" element = {<Booking/>}>Buchungsanfrage</Route>
+        <Route path = "/buchung" element = {<Booking/>}>Buchung</Route>
+        <Route path = "/anfrage" element = {<Request/>}>Buchungsanfrage</Route>
         <Route path = "/impressum" element = {<Imprint/>}>Impressum</Route>
         <Route path = "/agb" element = {<GTC/>}>AGB</Route>
         <Route path = "/datenschutz" element = {<Data_Protection/>}>Datenschutz</Route>
