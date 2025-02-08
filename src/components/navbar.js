@@ -5,7 +5,7 @@ import Hus1 from "../pages/Hus1";
 import Hus2 from "../pages/Hus2";
 import Infos from "../pages/Infos";
 import Booking from "../pages/Booking";
-
+import Request from "../pages/Request";
 
 const Navbar = () => {
   return (
@@ -16,6 +16,7 @@ const Navbar = () => {
             <li><NavLink to ="/hus1" element = {<Hus1/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Hus 1</NavLink></li>
             <li><NavLink to ="/hus2" element = {<Hus2/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Hus 2</NavLink></li>
             <li><NavLink to ="/infos" element = {<Infos/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Informationen</NavLink></li>
+            <li><NavLink to = "/anfrage" element = {<Request/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Anfrage</NavLink></li>
             <li><NavLink to = "/buchung" element = {<Booking/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Buchung</NavLink></li>
           </ul>
       </nav>
