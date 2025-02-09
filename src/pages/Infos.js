@@ -17,9 +17,9 @@ function Infos() {
             </div>
             
                     <table>
-                        <thead>     <caption>Freizeitaktivitäten</caption></thead>
+                          <caption>Freizeitaktivitäten</caption>
                    
-                        <tbody>
+                        
                         <tr className="trleft">
                             <td className="tdleft">Strand</td>
                             <td>Juliusruh/Schaabe, 4,6 km, Nordstrand, Kap Arkona, Dranske <br/> 
@@ -57,7 +57,7 @@ function Infos() {
                             <td className="tdleft tdlast">Golf</td>
                             <td className="tdlast">Golfplatz Schloss Ranzow, Lohme, rund 20 km</td>
                         </tr>
-                        </tbody>
+                
                     </table>
                 
                     {/* <iframe src="https://www.komoot.com/de-de/tour/2046099845/embed?share_token=aHhIIZOVZE7aBmCO3oJFCKH2yf2jpTp28g021909VGlmC16Wyi&gallery=1" width="100%" height="600" frameborder="0" scrolling="no"></iframe> */}
