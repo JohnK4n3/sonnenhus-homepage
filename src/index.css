@@ -5,16 +5,18 @@
   var-beige: rgb(255, 252, 245);
   --beige:rgb(255, 252, 245);
 
-  var-linkhover: rgb(120, 63, 63);
-  --linkhover: rgb(120, 63, 63);
+  /* var-linkhover: rgb(120, 63, 63);
+  --linkhover: rgb(120, 63, 63); */
+
+  var-linkhover: rgb(215, 215, 215);
+  --linkhover: rgb(255, 255, 255);
 
   var-earthbrown: rgb(230, 153, 37);
-  --earthbrown:  rgb(230, 153, 37);
+  --earthbrown:  rgb(230, 177, 98);
 
   var-lightbeige: #f5eedc;
   --lightbeige:#f5eedc;
 }
-
 
 * {
   box-sizing: border-box;
@@ -101,7 +103,7 @@ a {
 }
 
 a:hover {
-  color:rgb(120, 63, 63);
+  color:var(--linkhover)
 }
 
 tr, td {
@@ -145,6 +147,10 @@ table {
   padding: 20px 0;
   display:flex;
   flex-direction: column;
+}
+
+.flexcontainer {
+  background-color: var(--lightbeige);
 }
 
 
@@ -256,7 +262,7 @@ nav > ul {
 }
 
 .nav-item-active {
-  color: rgb(120, 63, 63); 
+  color: var(--linkhover);
   font-weight: 600; 
   font-family:"inter";
   padding: 4px 12px; 
@@ -379,7 +385,7 @@ li > svg {
   flex-direction:column;
   margin-bottom: -135px;
   height: 100vh;
-  
+  background-color: var(--lightbeige);
 }
 
 .wrapper p {
@@ -934,7 +940,7 @@ align-items: center;
     justify-content: flex-end;
     position: absolute;
     z-index:289;
-    border-top: 3px solid rgba(103, 120, 155, 0.7);
+    border-top: 3px solid rgba(77, 77, 77, 0.7);
     top: 64px;
     right: 0;
     padding:8px 16px;
@@ -947,7 +953,7 @@ align-items: center;
   }
   
   .mobile-links li:hover{
-    color:rgb(120, 63, 63);
+    color: var(--linkhover);
   }
 
   .text-main {
@@ -1028,7 +1034,8 @@ align-items: center;
  
 .wrapper {
   margin-bottom:0px;
-  height:auto
+  height:auto;
+  background-color: var(--lightbeige);
 }
 
 

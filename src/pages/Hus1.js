@@ -22,7 +22,12 @@ function Hus1() {
     <section className="layout">
         {/* <Booknow></Booknow>// */}
         <div className="text-main"><h1>Hus 1</h1>
-        <p>Text zur Beschreibung des Hus1</p>
+        <p>Willkommen in unserem familienfreundlichen Hus 1. Es verfügt über einen separaten Eingang und verteilt sich über zwei Etagen. <br/> <br/>
+            In der großen Küche im Landhausstil kann gemeinsam gekocht, gebacken und gegessen werden. Ein großer Kühl -und Gefrierschrank, Herd, Backofen, Mikrowelle und alle erforderlichen Küchengeräte sind vorhanden. Im gemütlichen Wohnbereich ist viel Platz zum Lesen, Fernsehen und Spielen. Genießen Sie behagliche Abende vor dem prasselnden Kaminfeuer. <br/> <br/>
+
+Von jedem der drei Schlafräume können Sie unvergessliche Sonnenaufgänge über dem Breeger
+Boden erleben. Die großzügige Terrasse ist perfekt für entspannte Momente im Freien. <br/> <br/>
+Lassen Sie sich von der Ruhe dieser besonderen Ferienwohnung verzaubern.</p>
         </div>
             
         

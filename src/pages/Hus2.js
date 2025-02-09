@@ -16,7 +16,11 @@ function Hus1() {
     <section className="layout">
            
             <div className="text-main"><h1>Hus 2</h1>
-            <p>Text zur Beschreibung des Hus 2</p>
+            <p>Willkommen in unserem modern eingerichteten Hus 2. Hus 2 ist mit separatem Eingang auf zwei Etagen verteilt. <br/> <br/>
+                 Parkettfußboden sorgt für ein warmes Ambiente. Von der gemütlichen Sofaecke aus genießen Sie Fernsehabende am großen Bildschirm oder behagliche Momente vor dem Kamin. <br/> <br/>
+Erleben Sie den besten Schlafkomfort in den komfortablen Boxspringbetten. Die moderne Küche ist komplett ausgestattet. <br/> <br/>
+Es erwartet Sie der perfekte Rückzugsort, um dem Alltag zu entfliehen und sich rundum zu erholen.
+Ihr Wohlfühl- Urlaub beginnt hier.</p>
             </div>
             
         
