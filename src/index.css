@@ -231,7 +231,7 @@ nav > ul {
 
 .navlogo {
   /* padding:5px; */
-  font-weight: 700;
+  font-weight: 400;
   color:rgb(69, 36, 36);
   font-size: 2.1rem;
   font-family: "Lato";
@@ -986,7 +986,7 @@ align-items: center;
 
   footer {
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: 12px;
     padding: 24px 16px;
     margin-top: auto; 
     height:220px;
