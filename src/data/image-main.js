@@ -1,13 +1,13 @@
 const images = [
-    {id: 0, imagePath:"images/Rügen/Bild1.jpg"},
-    {id: 1, imagePath:"images/Rügen/Bild2.jpg"},
-    {id: 2, imagePath:"images/Rügen/Bild3.jpg"},
-    {id: 3, imagePath:"images/Rügen/Bild4.jpg"},
-    {id: 4, imagePath:"images/Rügen/Bild5.jpg"},
-    {id: 5, imagePath:"images/Rügen/Bild6.jpg"},
-    {id: 6, imagePath:"images/Rügen/Bild7.jpg"},
-    {id: 7, imagePath:"images/Rügen/Bild8.jpg"},
-    {id: 8, imagePath:"images/Rügen/Bild9.jpg"},
-    {id: 9, imagePath:"images/Rügen/Bild10.jpg"},
+    {id: 0, imagePath:"images/Rügen/Bild1_klein.jpg"},
+    {id: 1, imagePath:"images/Rügen/Bild2_klein.jpg"},
+    {id: 2, imagePath:"images/Rügen/Bild3_klein.jpg"},
+    {id: 3, imagePath:"images/Rügen/Bild4_klein.jpg"},
+    {id: 4, imagePath:"images/Rügen/Bild5_klein.jpg"},
+    {id: 5, imagePath:"images/Rügen/Bild6_klein.jpg"},
+    {id: 6, imagePath:"images/Rügen/Bild7_klein.jpg"},
+    {id: 7, imagePath:"images/Rügen/Bild8_klein.jpg"},
+    {id: 8, imagePath:"images/Rügen/Bild9_klein.jpg"},
+    {id: 9, imagePath:"images/Rügen/Bild10_klein.jpg"},
 ]; 
 export default images;
