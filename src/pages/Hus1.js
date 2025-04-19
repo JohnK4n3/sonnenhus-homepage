@@ -8,7 +8,7 @@ import images2 from "../data/images-hus1-gallery";
 import '../../node_modules/lightgallery/css/lightgallery.css';
 import '../../node_modules/lightgallery/css/lg-zoom.css';
 import '../../node_modules/lightgallery/css/lg-thumbnail.css';
-import Booknow from "../components/booknow"
+import Booknow1 from "../components/booknow1"
 
 
 function Hus1() {
@@ -200,7 +200,7 @@ function Hus1() {
     <iframe src="https://widget.fewomanager.cloud/calendar/4135" id="fewohus1" width="100%;" height="400px" frameborder="0"></iframe>
 
 </section>
-<Booknow></Booknow>       
+<Booknow1></Booknow1>       
 </main>
     
     </>)

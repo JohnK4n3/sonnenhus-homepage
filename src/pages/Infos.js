@@ -5,7 +5,7 @@ function Infos() {
     return (
 
     // <main style={{backgroundColor:"rgb(255, 255, 255)"}}>
-    <main>
+    <main className="wrapper-infos">
         
         <section className="layout">
             <div className="text-main">

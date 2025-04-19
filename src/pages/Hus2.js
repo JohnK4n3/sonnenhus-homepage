@@ -5,7 +5,7 @@ import LightGallery from 'lightgallery/react';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import images2 from "../data/images-hus2-gallery";
-import Booknow from "../components/booknow"
+import Booknow2 from "../components/booknow2"
 
 
 function Hus1() {
@@ -190,7 +190,7 @@ function Hus1() {
 <iframe src="https://widget.fewomanager.cloud/calendar/4061" id="fewohus2" width="100%;" height="400px" frameborder="0"></iframe>
 </section>
 
-<Booknow></Booknow>
+<Booknow2></Booknow2>
     </main>
     
     </>)

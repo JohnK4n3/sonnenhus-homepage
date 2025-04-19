@@ -1,4 +1,5 @@
 import React from "react";
+import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router";
 import Hauptseite from "../pages/Hauptseite";
 import Hus1 from "../pages/Hus1";
@@ -10,7 +11,9 @@ import Booking_Hus1 from "../pages/Booking_Hus1";
 import Booking_Hus2 from "../pages/Booking_Hus2";
 import Request_Hus1 from "../pages/Request_Hus1";
 import Request_Hus2 from "../pages/Request_Hus2";
-import { useState, useEffect, useRef } from "react";
+import Contact from "../pages/Contact";
+
+
 
 const Navbar = () => {
   const [buchungOpen, setBuchungOpen] = useState(false);
@@ -47,16 +50,20 @@ const Navbar = () => {
 
   return (
       <nav className="nav-desktop">
-       <NavLink to ="/" element = {<Hauptseite/>} className="navlogo">Sonnenhus</NavLink>
+       <NavLink to ="/" element = {<Hauptseite/>} className="navlogo">
+          <img src="/images/logo_notext.png" alt="Logo" className="navlogo"/>
+       
+       </NavLink>
          <div>
           <ul>
             <li><NavLink to ="/" element = {<Hauptseite/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Übersicht</NavLink></li>
             <li><NavLink to ="/hus1" element = {<Hus1/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Hus 1</NavLink></li>
             <li><NavLink to ="/hus2" element = {<Hus2/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Hus 2</NavLink></li>
             <li><NavLink to ="/infos" element = {<Infos/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Informationen</NavLink></li>
+            <li><NavLink to ="/kontakt" element = {<Contact/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Kontakt</NavLink></li>
           </ul>
          <div className="button-container">
-          <button ref={anfrageRef} onClick={toggleAnfrage} className="mobile-menu">
+          <button ref={anfrageRef} onClick={toggleAnfrage} className="dropdown-menu">
             Anfrage
           </button>
             {anfrageOpen && (
@@ -67,7 +74,7 @@ const Navbar = () => {
       )}
       </div>
       <div className="button-container">
-      <button ref={buchungRef} onClick={toggleBuchung} className="mobile-menu">
+      <button ref={buchungRef} onClick={toggleBuchung} className="dropdown-menu">
             Buchung
       </button>
             {buchungOpen && (

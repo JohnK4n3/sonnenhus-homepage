@@ -3,9 +3,9 @@ import "./booknow.css";
 import { Link } from "react-router";
 import Booking from "../pages/Booking";
 
-const Booknow = () => {
+const Booknow1 = () => {
     return (          
-        <Link to="/buchung" element = {<Booking/>} className="booknow">Jetzt buchen</Link>
+        <Link to="/buchung_hus1" element = {<Booking/>} className="booknow">Jetzt buchen</Link>
     );
 }
-export default Booknow;
+export default Booknow1;

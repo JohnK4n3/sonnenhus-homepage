@@ -7,7 +7,7 @@ let images = [
     {id: 5, imagePath:"images/Hus2/Bild6_klein.jpg"},
     {id: 6, imagePath:"images/Hus2/Bild7_klein.jpg"},
     {id: 7, imagePath:"images/Hus2/Bild8_klein.jpg"},
-    {id: 8, imagePath:"images/Hus1/Bild9.png"},
-    {id: 9, imagePath:"images/Hus1/Bild10.png"},
+    // {id: 8, imagePath:"images/Hus1/Bild9.png"},
+    // {id: 9, imagePath:"images/Hus1/Bild10.png"},
 ]; 
 export default images;

@@ -16,5 +16,6 @@
 }
 
 .booknow:hover {
-  color: rgb(120, 63, 63);
+  color: var(--linkhover);
 }
+

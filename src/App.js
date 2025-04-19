@@ -9,7 +9,7 @@ import GTC from './pages/GTC';
 import Data_Protection from './pages/Data_Protection';
 import Imprint from './pages/Imprint';
 import Navbar from './components/navbar';
-import Booknow from './components/booknow';
+import Booknow from './components/booknow1';
 import Footer from './components/footer';
 import Slideshow from './slideshow';
 import ScrollToTop from './components/scrollToTop';
@@ -19,6 +19,7 @@ import Booking_Hus1 from "./pages/Booking_Hus1";
 import Booking_Hus2 from "./pages/Booking_Hus2";
 import Request_Hus1 from "./pages/Request_Hus1";
 import Request_Hus2 from "./pages/Request_Hus2";
+import Contact from "./pages/Contact";
 
 function App() {
  
@@ -42,6 +43,7 @@ function App() {
         <Route path = "/buchung_hus2" element = {<Booking_Hus2/>}>Buchung Hus2</Route>
         <Route path = "/anfrage_hus1" element = {<Request_Hus1/>}>Buchungsanfrage Hus1</Route>
         <Route path = "/anfrage_hus2" element = {<Request_Hus2/>}>Buchungsanfrage Hus2</Route>
+        <Route path = "/kontakt" element = {<Contact/>}>Kontakt</Route>
         <Route path = "/impressum" element = {<Imprint/>}>Impressum</Route>
         <Route path = "/agb" element = {<GTC/>}>AGB</Route>
         <Route path = "/datenschutz" element = {<Data_Protection/>}>Datenschutz</Route>

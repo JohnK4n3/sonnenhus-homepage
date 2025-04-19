@@ -38,7 +38,10 @@ import Request_Hus1 from "../pages/Request_Hus1";
       
     return (
       <nav className="nav-mobile">
-      <Link to="/" element={<Hauptseite />} className="navlogo">Sonnenhus</Link>
+      <Link to="/" element={<Hauptseite />} className="navlogo">
+      <img src="/images/logo_notext.png" alt="Logo" className="navlogo"/>
+      
+      </Link>
       <button ref={hamburgerRef} onClick={toggle} className="mobile-menu">
         {Hamburger}
       </button>

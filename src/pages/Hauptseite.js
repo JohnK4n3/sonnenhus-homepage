@@ -1,7 +1,7 @@
 import React from 'react';
 import images from '../data/image-main';
 import Slideshow from '../slideshow';
-import Booknow from '../components/booknow';
+import Booknow from '../components/booknow1';
 import Slideshow_small from '../slideshow_small';
 import imagesSmall from "../data/image-main-small";
 
