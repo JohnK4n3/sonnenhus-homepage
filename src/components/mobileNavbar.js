@@ -7,7 +7,7 @@ import Infos from "../pages/Infos";
 import Booking_Hus1 from "../pages/Booking_Hus1";
 import Booking_Hus2 from "../pages/Booking_Hus2";
 import Request_Hus2 from "../pages/Request_Hus2";
-
+import Contact from "../pages/Contact";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState, useEffect, useRef } from "react";
@@ -51,6 +51,7 @@ import Request_Hus1 from "../pages/Request_Hus1";
         <Link to="/hus1" element={<Hus1 />} className="nav-item" onClick={toggle}>Hus 1</Link>
         <Link to="/hus2" element={<Hus2 />} className="nav-item" onClick={toggle}>Hus 2</Link>
         <Link to="/infos" element={<Infos />} className="nav-item" onClick={toggle}>Informationen</Link>
+        <Link to="/kontakt" element={<Contact />} className="nav-item" onClick={toggle}>Kontakt</Link>
         <p className="nav-item">Anfrage</p>
         <ul>
         <li><Link to="/anfrage_hus1" element={Request_Hus1} className="nav-item" onClick={toggle}> &gt; Hus 1</Link></li>

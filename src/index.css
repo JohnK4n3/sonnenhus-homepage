@@ -550,7 +550,43 @@ color: blue
   flex: 1;
 }
 
+/*Kontakt*/
 
+.contact-form {
+  display:flex; 
+  flex-direction: column;
+  /* row-gap: 8px; */
+  width:50%;
+  max-width: 500px;
+}
+
+.contact-input {
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 4px; */
+}
+
+
+.Absenden-button {
+display: flex
+  ;
+      flex-direction: column;
+      /* row-gap: 4px; */
+      justify-content: center;
+      align-items: center;
+  padding: 12px;
+ border-radius: 8px;
+ /* background-color: var(--lightblue); */
+ text-align:center;
+ line-height: 100%;
+ font-weight: 600;
+ color: rgb(0, 0, 0);
+ border: none;
+}
+
+/* .Absenden-button:hover {
+  color: 
+} */
 
 /*Footer-Seiten*/
 
