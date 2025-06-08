@@ -15,17 +15,17 @@ function Hauptseite() {
             <section className="layout">
             <h1 className="heading-house">Sonnenhus Breege</h1>            
                  <div className="two-columns-setup">
-                    <div style={{width:"50%", display:"flex", justifyContent:"center", alignItems:"center"}}> 
+                    <div className="two-column-item"> 
                          <Slideshow_small images={imagesSmall} style={{zIndex:"2"}} /></div>
 
                     
                     
-                    <div style={{width:"50%", display:"flex", justifyContent:"center", flexDirection:"column"}}>
+                    <div className="two-column-item">
                             <h3>Urlaub auf Rügen - Ihre perfekte Auszeit auf der Halbinsel Wittow</h3>
                             <p>Erleben Sie unvergessliche Tage auf der zauberhaften Halbinsel Wittow. 
-                            </p>
+                            <br/>
 
-                             <p> Hier können Sie abseits von Lärm und Trubel Erholung pur mit Badevergnügen an einem der schönsten Strände der Ostsee verbinden.</p> <br/>
+                             Hier können Sie abseits von Lärm und Trubel Erholung pur mit Badevergnügen an einem der schönsten Strände der Ostsee verbinden.</p> <br/>
                             <h3>Private Terrasse und Boddenblick</h3>
                             <p>Entspannen Sie im hauseigenen Strandkorb auf der Terrasse und genießen Sie den Blick auf den Breeger Bodden.
                              Befeuern Sie im Sommer den Grill und sorgen in der kalten Jahreszeit vor dem Kamin für romantische Stimmung.</p><br/>

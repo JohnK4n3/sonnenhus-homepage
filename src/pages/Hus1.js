@@ -23,7 +23,7 @@ function Hus1() {
         {/* <Booknow></Booknow>// */}
 
             <div className="two-columns-setup">
-                    <div style={{width:"50%", display:"flex", flexDirection:"column"}}> 
+                    <div className="two-column-item">
                         <h1>Hus 1</h1>
                     
                         <p>Willkommen in unserem familienfreundlichen Hus 1. Es verfügt über einen separaten Eingang und verteilt sich über zwei Etagen. <br/> <br/>
@@ -34,7 +34,7 @@ function Hus1() {
                              Lassen Sie sich von der Ruhe dieser besonderen Ferienwohnung verzaubern.</p>    
                     </div>
                     
-                    <div style={{width:"50%", display:"flex", flexDirection:"column"}}>
+                    <div className="two-column-item">
                    
                             <h1>Eckdaten</h1>
 
@@ -84,7 +84,7 @@ function Hus1() {
 <section className="layout">
 <h2>Details zur Unterkunft</h2>
 <div className="two-columns-setup" style={{overflow:"scroll"}}>
-                    <div style={{width:"50%", display:"flex", flexDirection:"column"}}> 
+                    <div className="two-column-item"> 
                        
                            
                             <table>
@@ -123,7 +123,7 @@ function Hus1() {
                                             </tr>
                                         </table>
                             </div>
-<div style={{width:"50%", display:"flex", flexDirection:"column", rowGap:"20px", alignItems:"center"}}>
+<div className='two-column-item'>
     <img src="/images/Hus1/Bild9.png" alt="Bild9" style={{width:"50%"}}/>
     <img src="/images/Hus1/Bild10.png" alt="Bild10" style={{width:"50%"}}/>
 </div>

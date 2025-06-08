@@ -9,7 +9,7 @@ function Contact() {
 
     return (
      
-     <main>
+     <main style={{minHeight:"calc(100vh - 212px"}}>
         <p>Nutzen Sie gerne das Kontaktformular, um Ihre Fragen an uns zu richten.</p>
         <br/>
      <div>

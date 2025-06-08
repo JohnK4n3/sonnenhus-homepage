@@ -41,6 +41,7 @@ const Navbar = () => {
 
   useEffect(() => {
       document.addEventListener('mousedown', handleClickOutside);
+      // document.addEventListener('mouseleave', handleClickOutside);
       return () => {
           document.removeEventListener('mousedown', handleClickOutside);
       };
@@ -63,7 +64,7 @@ const Navbar = () => {
             <li><NavLink to ="/kontakt" element = {<Contact/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Kontakt</NavLink></li>
           </ul>
          <div className="button-container">
-          <button ref={anfrageRef} onClick={toggleAnfrage} className="dropdown-menu">
+          <button ref={anfrageRef} onClick={toggleAnfrage} onMouseOver={toggleAnfrage} className="dropdown-menu">
             Anfrage
           </button>
             {anfrageOpen && (
@@ -74,7 +75,7 @@ const Navbar = () => {
       )}
       </div>
       <div className="button-container">
-      <button ref={buchungRef} onClick={toggleBuchung} className="dropdown-menu">
+      <button ref={buchungRef} onClick={toggleBuchung} onMouseOver={toggleBuchung} className="dropdown-menu">
             Buchung
       </button>
             {buchungOpen && (

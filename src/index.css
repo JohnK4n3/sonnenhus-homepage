@@ -232,8 +232,8 @@ footer {
   /* background-color: #f3fbff; */
   /* background-color: rgb(227 240 255); */
   background-color: var(--lightblue);
-  padding: 8px 24px;
-  height: 80px;
+  padding: 2px 24px;
+  height: auto;
   width: 100%;
   position: sticky;
   top: 0;
@@ -247,14 +247,14 @@ footer {
 nav > div {
   display: flex;
   flex-direction: row;
- 
+  align-items: center;
+  column-gap: 2px;
 }
 
 nav > div > ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  column-gap: 4px;
 }
 
 .navlogo {
@@ -264,13 +264,14 @@ nav > div > ul {
   font-size: 2.1rem;
   font-family: "Lato"; */
   /* padding-bottom: 0; */
-  width:90px;
+  width:64px;
 }
 
 
 .nav-item {
   color: black; 
   font-family:"inter";
+  font-size: 16px;
   font-weight:400;
   display: inline;
   padding: 4px 12px;
@@ -281,6 +282,7 @@ nav > div > ul {
   font-weight: 600; 
   font-family:"inter";
   padding: 4px 12px; 
+  font-size: 16px;
 }
 
 .dropdown-item{
@@ -318,7 +320,7 @@ nav > div > ul {
   font-family:"inter";
   font-weight:400;
   padding: 4px 12px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
 };
 
@@ -390,8 +392,16 @@ padding: 24px 0;
   grid-template-columns: 1fr 1fr;
   /* width: 100vw; */
   column-gap: 30px;
+  margin-bottom: 60px;
   }
 
+  .two-column-item {
+    width:50%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:flex-start;
+  }
 
 /* HUS 1 */
 .text-main a{
@@ -555,7 +565,7 @@ color: blue
 .contact-form {
   display:flex; 
   flex-direction: column;
-  /* row-gap: 8px; */
+  row-gap: 8px;
   width:50%;
   max-width: 500px;
 }
@@ -568,15 +578,14 @@ color: blue
 
 
 .Absenden-button {
-display: flex
-  ;
+display: flex;
       flex-direction: column;
       /* row-gap: 4px; */
       justify-content: center;
       align-items: center;
   padding: 12px;
  border-radius: 8px;
- /* background-color: var(--lightblue); */
+ background-color: var(--lightblue);
  text-align:center;
  line-height: 100%;
  font-weight: 600;
@@ -1051,6 +1060,9 @@ margin: 0 auto;
   main {
     padding: 16px;
   }
+h3 {
+  text-align:left;
+}
 
   .nav-desktop{
         display: none;
@@ -1134,6 +1146,22 @@ margin: 0 auto;
     aspect-ratio: 16/9;
   }
 
+  .two-columns-setup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 40px;
+    flex-wrap:wrap;
+  }
+
+  .two-column-item {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:stretch;
+    flex-direction:column;
+    align-items:flex-start;
+    width: 100%;
+  }
   .preise-desktop {
     display:none;
   }
