@@ -124,8 +124,8 @@ function Hus1() {
                                         </table>
                             </div>
 <div className='two-column-item'>
-    <img src="/images/Hus1/Bild9.png" alt="Bild9" style={{width:"50%"}}/>
-    <img src="/images/Hus1/Bild10.png" alt="Bild10" style={{width:"50%"}}/>
+    <img src="/images/Hus1/Bild9.png" alt="Bild9"/>
+    <img src="/images/Hus1/Bild10.png" alt="Bild10" />
 </div>
 </div>
 </section>
