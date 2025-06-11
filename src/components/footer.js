@@ -13,7 +13,7 @@ const Footer = () => {
                 
             </div>  
             <div className="footer-col">
-            <a style={{fontWeight:600}} href="mailto:info@sonnenhus.de">info@sonnenhus.de</a>
+            <a style={{fontWeight:600}} href="mailto:info@sonnenhus.com">info@sonnenhus.com</a>
                 <a href="https://www.facebook.com/Sonnenhus-102255241810930/" target="_blank"><b>Facebook:</b> Sonnenhus Rügen</a>
             </div>  
             <div className="footer-col">
