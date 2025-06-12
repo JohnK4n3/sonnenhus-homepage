@@ -4,7 +4,8 @@ import Slideshow from '../slideshow';
 import Booknow from '../components/booknow1';
 import Slideshow_small from '../slideshow_small';
 import imagesSmall from "../data/image-main-small";
-
+import RefHus2 from '../components/refHus2';
+import RefHus1 from '../components/refHus1';
 
 function Hauptseite() {
     return (<>
@@ -28,7 +29,7 @@ function Hauptseite() {
                              Hier können Sie abseits von Lärm und Trubel Erholung pur mit Badevergnügen an einem der schönsten Strände der Ostsee verbinden.</p> <br/>
                             <h3>Private Terrasse und Boddenblick</h3>
                             <p>Entspannen Sie im hauseigenen Strandkorb auf der Terrasse und genießen Sie den Blick auf den Breeger Bodden.
-                             Befeuern Sie im Sommer den Grill und sorgen in der kalten Jahreszeit vor dem Kamin für romantische Stimmung.</p><br/>
+                             Befeuern Sie im Sommer den Grill und sorgen Sie in der kalten Jahreszeit vor dem Kamin für romantische Stimmung.</p><br/>
                             <h3>Idealer Ausgangspunkt für Ausflüge</h3>
                              <p>Nutzen Sie die Lage des Hauses als Ausgangspunkt für abwechslungsreiche Freizeitaktivitäten und Ausflugstouren.
                              Mit dem Fahrrad können Sie von Lobkevitz hervorragend die Insel erobern.
@@ -36,7 +37,16 @@ function Hauptseite() {
                          </div> 
                         
                         </div>
-                
+
+                        <h2>Unsere Unterkünfte</h2>
+                        Das Sonnenhus auf Rügen verfügt über zwei Ferienunterkünfte, Hus Eins und Hus Zwei, die Ihnen eine breite Palette an Urlaubsmöglichkeiten bieten. <br/>
+                        Mit seiner großen Wohnfläche und drei Schlafzimmern ist Hus Eins besonders für größere Familien attraktiv. Hus Zwei besticht mit seiner modernen Möblierung und angenehmen Atmosphäre. <br/>
+                        Beide Häuser sind voll ausgestattet und bieten Ihnen alles, was Sie für einen erholsamen Urlaub benötigen. 
+                        <br/>
+                        <br/>
+
+                       <RefHus1></RefHus1>
+                       <RefHus2></RefHus2>                           
 
                     
 

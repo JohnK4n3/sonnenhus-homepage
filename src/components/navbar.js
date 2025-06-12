@@ -52,14 +52,14 @@ const Navbar = () => {
   return (
       <nav className="nav-desktop">
        <NavLink to ="/" element = {<Hauptseite/>} className="navlogo">
-          <img src="/images/logo_notext.png" alt="Logo" className="navlogo"/>
+          <img src="/images/logo_notext_black.png" alt="Logo" className="navlogo"/>
        
        </NavLink>
          <div>
           <ul>
             <li><NavLink to ="/" element = {<Hauptseite/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Übersicht</NavLink></li>
-            <li><NavLink to ="/hus1" element = {<Hus1/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Hus 1</NavLink></li>
-            <li><NavLink to ="/hus2" element = {<Hus2/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Hus 2</NavLink></li>
+            <li><NavLink to ="/hus1" element = {<Hus1/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Hus Eins</NavLink></li>
+            <li><NavLink to ="/hus2" element = {<Hus2/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Hus Zwei</NavLink></li>
             <li><NavLink to ="/infos" element = {<Infos/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Informationen</NavLink></li>
             <li><NavLink to ="/kontakt" element = {<Contact/>} className={({ isActive }) => (isActive ? "nav-item-active" : "nav-item")}>Kontakt</NavLink></li>
           </ul>
@@ -69,8 +69,8 @@ const Navbar = () => {
           </button>
             {anfrageOpen && (
         <div className="mobile-links" ref={menuRef}>
-            <NavLink to="/anfrage_hus1" element={<Request_Hus1/>} className={({ isActive }) => (isActive ? "dropdown-item-active" : "dropdown-item")} onClick={toggleAnfrage}>Hus 1</NavLink>
-            <NavLink to="/anfrage_hus2" element={<Request_Hus2/>} className={({ isActive }) => (isActive ? "dropdown-item-active" : "dropdown-item")} onClick={toggleAnfrage}>Hus 2</NavLink>
+            <NavLink to="/anfrage_hus1" element={<Request_Hus1/>} className={({ isActive }) => (isActive ? "dropdown-item-active" : "dropdown-item")} onClick={toggleAnfrage}>Hus Eins</NavLink>
+            <NavLink to="/anfrage_hus2" element={<Request_Hus2/>} className={({ isActive }) => (isActive ? "dropdown-item-active" : "dropdown-item")} onClick={toggleAnfrage}>Hus Zwei</NavLink>
           </div>
       )}
       </div>
@@ -80,8 +80,8 @@ const Navbar = () => {
       </button>
             {buchungOpen && (
         <div className="mobile-links" ref={menuRef}>
-            <NavLink to="/buchung_hus1" element={<Booking_Hus1/>} className={({ isActive }) => (isActive ? "dropdown-item-active" : "dropdown-item")} onClick={toggleBuchung}>Hus 1</NavLink>
-            <NavLink to="/buchung_hus2" element={<Booking_Hus2/>} className={({ isActive }) => (isActive ? "dropdown-item-active" : "dropdown-item")} onClick={toggleBuchung}>Hus 2</NavLink>
+            <NavLink to="/buchung_hus1" element={<Booking_Hus1/>} className={({ isActive }) => (isActive ? "dropdown-item-active" : "dropdown-item")} onClick={toggleBuchung}>Hus Eins</NavLink>
+            <NavLink to="/buchung_hus2" element={<Booking_Hus2/>} className={({ isActive }) => (isActive ? "dropdown-item-active" : "dropdown-item")} onClick={toggleBuchung}>Hus Zwei</NavLink>
           </div>
       )}
       </div>

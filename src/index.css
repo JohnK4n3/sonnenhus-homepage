@@ -1,6 +1,6 @@
 :root {
-  var-lightblue: #9eb8d3;
-  --lightblue: #9eb8d3;
+  var-lightblue: #d5dfed;
+  --lightblue: #d5dfed;
 
   var-beige: rgb(255, 252, 245);
   --beige:rgb(255, 252, 245);
@@ -19,6 +19,9 @@
 
   var-backgroundblue: #e3e8ed;
   --backgroundblue: #e3e8ed;
+
+  var-backgroundcolor: #fdfaf5;
+  --backgroundcolor: #fdfaf5;
 }
 
 * {
@@ -78,7 +81,7 @@ body {
 
 main {
   padding: 35px 24px;
-  background-color: var(--backgroundblue);
+  background-color: var(--backgroundcolor);
 }
 
 
@@ -153,7 +156,7 @@ table {
 }
 
 .flexcontainer {
-  background-color: var(--backgroundblue);
+  background-color: var(--backgroundcolor);
 }
 
 
@@ -392,7 +395,7 @@ padding: 24px 0;
   grid-template-columns: 1fr 1fr;
   /* width: 100vw; */
   column-gap: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   }
 
   .two-column-item {
@@ -483,9 +486,8 @@ li > svg {
   }
 
 .wrapper {
-  height: 100vh;
-  margin-bottom:150px;
-  background-color: white;
+  height: calc(100vh - 150px);
+   background-color: white;
 }
 
 .wrapper p {
@@ -499,7 +501,7 @@ font-weight:600;
   flex-direction:column;
   height: 100vh; 
   margin-bottom: -150px;
-  background-color: var(--backgroundblue);
+  background-color: var(--backgroundcolor);
 }
 
 .Tickbox {
@@ -545,6 +547,7 @@ color: blue
   
 .calendar-desktop {
     height: auto;
+    margin-bottom: 24px;
 }
 
 .calendar-mobile {
@@ -565,7 +568,7 @@ color: blue
 .contact-form {
   display:flex; 
   flex-direction: column;
-  row-gap: 8px;
+  row-gap: 6px;
   width:50%;
   max-width: 500px;
 }
@@ -585,7 +588,7 @@ display: flex;
       align-items: center;
   padding: 12px;
  border-radius: 8px;
- background-color: var(--lightblue);
+ background-color: #ece0cf;
  text-align:center;
  line-height: 100%;
  font-weight: 600;
@@ -1162,6 +1165,10 @@ h3 {
     align-items:flex-start;
     width: 100%;
   }
+
+  .contact-form {
+    width: 100%;
+  }
   .preise-desktop {
     display:none;
   }
@@ -1183,6 +1190,7 @@ h3 {
  .calendar-mobile {
   display:flex;
   flex-direction: column;
+  margin-bottom: 24px;
  }
 
 .layout-booking {
@@ -1234,7 +1242,6 @@ h3 {
  
 .wrapper {
   margin-bottom:0px;
-  height:auto;
   background-color: white;
 }
 

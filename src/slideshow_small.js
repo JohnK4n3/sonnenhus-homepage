@@ -10,7 +10,7 @@ const Slideshow_small = ({images}) => {
         autoplay: true,
         autoplaySpeed: 10000,
         siwpeToSlide: true,
-        // fade: true,
+        fade: true,
         dots: true,
         dotsClass: "slick-dots",
         pauseOnHover: false,
