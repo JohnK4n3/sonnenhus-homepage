@@ -1109,16 +1109,18 @@ h3 {
   .mobile-links{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     position: absolute;
     z-index:289;
     border-top: 3px solid rgba(77, 77, 77, 0.7);
     top: 64px;
-    right: 0;
+    left: 0;
     padding:12px 16px;
     background:var(--lightblue);
     border-radius: 6px;
     min-width:0px;
+    width: 45%;
   }
   
   .mobile-links ul {

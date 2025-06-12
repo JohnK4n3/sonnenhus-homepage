@@ -38,32 +38,33 @@ import Request_Hus1 from "../pages/Request_Hus1";
       
     return (
       <nav className="nav-mobile">
-      <Link to="/" element={<Hauptseite />} className="navlogo">
-      <img src="/images/logo_notext.png" alt="Logo" className="navlogo"/>
-      
-      </Link>
+     
       <button ref={hamburgerRef} onClick={toggle} className="mobile-menu">
         {Hamburger}
       </button>
       {click && (
         <div className="mobile-links" ref={menuRef}>
         <Link to="/" element={<Hauptseite />} className="nav-item" onClick={toggle}>Übersicht</Link>
-        <Link to="/hus1" element={<Hus1 />} className="nav-item" onClick={toggle}>Hus 1</Link>
-        <Link to="/hus2" element={<Hus2 />} className="nav-item" onClick={toggle}>Hus 2</Link>
+        <Link to="/hus1" element={<Hus1 />} className="nav-item" onClick={toggle}>Hus Eins</Link>
+        <Link to="/hus2" element={<Hus2 />} className="nav-item" onClick={toggle}>Hus Zwei</Link>
         <Link to="/infos" element={<Infos />} className="nav-item" onClick={toggle}>Informationen</Link>
         <Link to="/kontakt" element={<Contact />} className="nav-item" onClick={toggle}>Kontakt</Link>
         <p className="nav-item">Anfrage</p>
         <ul>
-        <li><Link to="/anfrage_hus1" element={Request_Hus1} className="nav-item" onClick={toggle}> &gt; Hus 1</Link></li>
-        <li><Link to="/anfrage_hus2" element={Request_Hus2} className="nav-item" onClick={toggle}> &gt; Hus 2</Link></li>
+        <li><Link to="/anfrage_hus1" element={Request_Hus1} className="nav-item" onClick={toggle}> &gt; Hus Eins</Link></li>
+        <li><Link to="/anfrage_hus2" element={Request_Hus2} className="nav-item" onClick={toggle}> &gt; Hus Zwei</Link></li>
         </ul>
         <p className="nav-item">Buchung</p>
         <ul>
-        <li><Link to="/anfrage_hus1" element={Booking_Hus1} className="nav-item" onClick={toggle}>&gt; Hus 1</Link></li>
-        <li><Link to="/anfrage_hus2" element={Booking_Hus2} className="nav-item" onClick={toggle}>&gt; Hus 2</Link></li>
+        <li><Link to="/anfrage_hus1" element={Booking_Hus1} className="nav-item" onClick={toggle}>&gt; Hus Eins</Link></li>
+        <li><Link to="/anfrage_hus2" element={Booking_Hus2} className="nav-item" onClick={toggle}>&gt; Hus Zwei</Link></li>
         </ul>
         </div>
       )}
+       <Link to="/" element={<Hauptseite />} className="navlogo">
+      <img src="/images/logo_notext_black.png" alt="Logo" className="navlogo"/>
+      
+      </Link>
       </nav>
     );
       }
