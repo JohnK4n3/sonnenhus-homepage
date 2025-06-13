@@ -139,8 +139,9 @@ function Hus1() {
                                 <td className="tdleft">Hauptsaison</td>
                                 <td>Mindestens 7 Nächte</td>
                                 <td>170€</td>
-                                <td>15. Juni bis 9. September 2025 und 24. Dezember 2025 bis 4. Januar 2025</td>
+                                <td>15. Juni bis 9. September 2025</td>
                             </tr>
+                           
                             <tr className="trleft">
                                 <td className="tdleft">Zwischensaison</td>
                                 <td>Mindestens 5 Nächte</td>
@@ -153,26 +154,38 @@ function Hus1() {
                                 <td className="tdlast">85€</td>
                                 <td className="tdlast">4. Januar bis 11. April und 4. November bis 23. Dezember 2025</td>
                             </tr>
+                            <tr className="trleft">
+                                <td className="tdleft">Weihnachten & Silvester</td>
+                                <td>Mindestens 3 Nächte</td>
+                                <td>170€</td>
+                                <td>24. Dezember 2025 bis 4. Januar 2025</td>
+                            </tr>
     
         </table>
         </div>
     <div className="preise-mobile">
-        <p><b>Hauptsaison:</b> 15. Juni bis 9. September 2025 und 22. Dezember 2025 bis 2. Januar 2025</p> 
+        <p><b>Hauptsaison:</b> 15. Juni bis 9. September 2025</p> 
         <ul>
-            <li>Mindestens 7 Nächste</li>
-            <li>160€</li>
+            <li>Mindestens 7 Nächte</li>
+            <li>170€</li>
         </ul>
+      
 
        <p><b>Zwischensaison:</b> 23. März bis 14. Juni und 10. September bis 3. November 2025 </p>
         <ul>
             <li>Mindestens 5 Nächste</li>
-            <li>115€</li>
+            <li>120€</li>
         </ul>
 
        <p><b>Nebensaison:</b> 4. Januar bis 22. März und 4. November bis 21. Dezember 2025 </p> 
         <ul>
             <li>Mindestens 3 Nächste</li>
             <li>85€</li>
+        </ul>
+        <p><b>Weihnachten & Silvester:</b> 22. Dezember 2025 bis 2. Januar 2025</p> 
+        <ul>
+            <li>Mindestens 3 Nächste</li>
+            <li>170€</li>
         </ul>
 
 

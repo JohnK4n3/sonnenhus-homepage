@@ -126,8 +126,9 @@ function Hus1() {
                             <td className="tdleft">Hauptsaison</td>
                             <td>Mindestens 7 Nächte</td>
                             <td>145€</td>
-                            <td>15. Juni bis 9. September 2025 und 24. Dezember 2025 bis 4. Januar 2025</td>
+                            <td>15. Juni bis 9. September 2025</td>
                         </tr>
+                        
                         <tr className="trleft">
                             <td className="tdleft">Zwischensaison</td>
                             <td>Mindestens 5 Nächte</td>
@@ -140,16 +141,24 @@ function Hus1() {
                             <td className="tdlast">75€</td>
                             <td className="tdlast">4. Januar bis 11. April 4. November bis 23. Dezember 2025</td>
                         </tr>
+                        <tr className="trleft">
+                            <td className="tdleft">Weihnachten & Silvester</td>
+                            <td>Mindestens 3 Nächte</td>
+                            <td>145€</td>
+                            <td>24. Dezember 2025 bis 4. Januar 2025</td>
+                        </tr>
    
     </table>
    </div>
 
    <div className="preise-mobile">
-        <p><b>Hauptsaison:</b> 15. Juni bis 9. September 2025 und 24. Dezember 2025 bis 4. Januar 2025</p> 
+        <p><b>Hauptsaison:</b> 15. Juni bis 9. September 2025</p> 
         <ul>
             <li>Mindestens 7 Nächste</li>
             <li>145€</li>
         </ul>
+
+      
 
        <p><b>Zwischensaison:</b> 12. April bis 14. Juni und 10. September bis 3. November 2025 </p>
         <ul>
@@ -161,6 +170,11 @@ function Hus1() {
         <ul>
             <li>Mindestens 3 Nächste</li>
             <li>75€</li>
+        </ul>
+        <p><b>Weihnachten & Silvester:</b> 24. Dezember 2025 bis 4. Januar 2025</p> 
+        <ul>
+            <li>Mindestens 3 Nächste</li>
+            <li>145€</li>
         </ul>
 
 

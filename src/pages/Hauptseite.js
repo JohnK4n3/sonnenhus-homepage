@@ -39,9 +39,9 @@ function Hauptseite() {
                         </div>
 
                         <h2>Unsere Unterkünfte</h2>
-                        Das Sonnenhus auf Rügen verfügt über zwei Ferienunterkünfte, Hus Eins und Hus Zwei, die Ihnen eine breite Palette an Urlaubsmöglichkeiten bieten. <br/>
-                        Mit seiner großen Wohnfläche und drei Schlafzimmern ist Hus Eins besonders für größere Familien attraktiv. Hus Zwei besticht mit seiner modernen Möblierung und angenehmen Atmosphäre. <br/>
-                        Beide Häuser sind voll ausgestattet und bieten Ihnen alles, was Sie für einen erholsamen Urlaub benötigen. 
+                        <p>Das Sonnenhus auf Rügen verfügt über zwei Ferienunterkünfte, Hus Eins und Hus Zwei, die Ihnen eine breite Palette an Urlaubsmöglichkeiten bieten:</p> <br/>
+                        <p>Mit seiner großen Wohnfläche und drei Schlafzimmern ist Hus Eins besonders für größere Familien attraktiv. Hus Zwei besticht mit seiner modernen Möblierung und Wohlfühl TV-Ecke. 
+                        Beide Häuser sind voll ausgestattet und bieten Ihnen alles, was Sie für einen erholsamen Urlaub benötigen. </p>
                         <br/>
                         <br/>
 
