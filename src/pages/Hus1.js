@@ -9,7 +9,8 @@ import '../../node_modules/lightgallery/css/lightgallery.css';
 import '../../node_modules/lightgallery/css/lg-zoom.css';
 import '../../node_modules/lightgallery/css/lg-thumbnail.css';
 import Booknow1 from "../components/booknow1"
-
+import { Link } from "react-router";
+import GTC from './GTC';
 
 function Hus1() {
     let tick = String.fromCodePoint(10004);
@@ -149,16 +150,16 @@ function Hus1() {
                                 <td>12. April bis 14. Juni und 10. September bis 3. November 2025</td>
                             </tr>
                             <tr className="trleft">
-                                <td className="tdleft tdlast">Nebensaison</td>
-                                <td className="tdlast">Mindestens 3 Nächte</td>
-                                <td className="tdlast">85€</td>
-                                <td className="tdlast">4. Januar bis 11. April und 4. November bis 23. Dezember 2025</td>
+                                <td className="tdleft ">Nebensaison</td>
+                                <td >Mindestens 3 Nächte</td>
+                                <td >85€</td>
+                                <td >4. Januar bis 11. April und 4. November bis 23. Dezember 2025</td>
                             </tr>
                             <tr className="trleft">
-                                <td className="tdleft">Weihnachten & Silvester</td>
-                                <td>Mindestens 3 Nächte</td>
-                                <td>170€</td>
-                                <td>24. Dezember 2025 bis 4. Januar 2025</td>
+                                <td className="tdleft tdlast">Weihnachten & Silvester</td>
+                                <td className="tdlast">Mindestens 3 Nächte</td>
+                                <td className="tdlast">170€</td>
+                                <td className="tdlast">24. Dezember 2025 bis 4. Januar 2025</td>
                             </tr>
     
         </table>
@@ -196,12 +197,14 @@ function Hus1() {
     <ul>
         <li>Endreinigung: 135€</li>
         <li>Wäschepaket: 20€/Person (Bettwäsche, ein großes und ein kleines Handtuch)</li>
-        <li><a target="_blank" rel="noopener noreferrer" href="https://www.breege.de/service/kurabgabe/">Kurtaxe</a> gemäß der Vorgaben der Gemeinde Breege</li>
+        <li><a className="agb-link" target="_blank" rel="noopener noreferrer" href="https://www.breege.de/service/kurabgabe/">Kurtaxe</a> gemäß der Vorgaben der Gemeinde Breege</li>
         <li> Maximal zwei Hunde - pro Hund 8€/Nacht (Wir stellen Ihnen Hundenäpfe, ein Handtuch und Beutel zur Verfügung)</li>
     </ul>
 </div>
 
 </section>
+<br/>
+<p>Wir weisen darauf hin, dass ergänzend unsere <Link to ="/agb" element = {<GTC/>} className='agb-link'>AGB</Link> gelten.</p>
 <br/>
 <section className="calendar-desktop">
 <h1>Belegungskalender</h1>

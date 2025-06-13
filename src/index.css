@@ -123,10 +123,9 @@ tr, td {
   font-weight:bold;
   padding: 15px 0;
   border-left: rgba(0, 0, 0, 0);
- min-width: 200px;
+  min-width: 250px;
 }
 
- 
 th {
   font-weight:bold;
   font-size: 100px;
@@ -443,6 +442,18 @@ li > svg {
   height: auto;
   margin: 0;
   aspect-ratio: 16/9;
+}
+
+.agb-link {
+  color: blue;
+  font-weight: 600;
+  font-family:"inter";
+  font-size: 16px;
+  text-decoration:underline;
+}
+
+.agb-link:hover {
+  color: inherit;
 }
 
 .layout {
