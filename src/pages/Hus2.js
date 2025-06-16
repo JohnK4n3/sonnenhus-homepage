@@ -126,26 +126,26 @@ function Hus1() {
                         <tr className="trleft">
                             <td className="tdleft">Hauptsaison</td>
                             <td>Mindestens 7 Nächte</td>
-                            <td>145€</td>
+                            <td>145€ pro Tag</td>
                             <td>15. Juni bis 9. September 2025</td>
                         </tr>
                         
                         <tr className="trleft">
                             <td className="tdleft">Zwischensaison</td>
                             <td>Mindestens 5 Nächte</td>
-                            <td>105€</td>
+                            <td>105€ pro Tag</td>
                             <td>12. April bis 14. Juni und 10. September bis 3. November 2025</td>
                         </tr>
                         <tr className="trleft">
                             <td className="tdleft">Nebensaison</td>
                             <td >Mindestens 3 Nächte</td>
-                            <td >75€</td>
+                            <td >75€ pro Tag</td>
                             <td >4. Januar bis 11. April 4. November bis 23. Dezember 2025</td>
                         </tr>
                         <tr className="trleft">
                             <td className="tdleft tdlast">Weihnachten & Silvester</td>
                             <td className="tdlast">Mindestens 3 Nächte</td>
-                            <td className="tdlast">145€</td>
+                            <td className="tdlast">145€ pro Tag</td>
                             <td className="tdlast">24. Dezember 2025 bis 4. Januar 2025</td>
                         </tr>
    
@@ -156,7 +156,7 @@ function Hus1() {
         <p><b>Hauptsaison:</b> 15. Juni bis 9. September 2025</p> 
         <ul>
             <li>Mindestens 7 Nächste</li>
-            <li>145€</li>
+            <li>145€ pro Tag</li>
         </ul>
 
       
@@ -164,18 +164,18 @@ function Hus1() {
        <p><b>Zwischensaison:</b> 12. April bis 14. Juni und 10. September bis 3. November 2025 </p>
         <ul>
             <li>Mindestens 5 Nächste</li>
-            <li>105€</li>
+            <li>105€ pro Tag</li>
         </ul>
 
        <p><b>Nebensaison:</b> 4. Januar bis 11. April und 4. November bis 23. Dezember 2025 </p> 
         <ul>
             <li>Mindestens 3 Nächste</li>
-            <li>75€</li>
+            <li>75€ pro Tag</li>
         </ul>
         <p><b>Weihnachten & Silvester:</b> 24. Dezember 2025 bis 4. Januar 2025</p> 
         <ul>
             <li>Mindestens 3 Nächste</li>
-            <li>145€</li>
+            <li>145€ pro Tag</li>
         </ul>
 
 
@@ -185,7 +185,7 @@ function Hus1() {
     <ul>
         <li>Endreinigung:90€</li>
         <li>Wäschepaket 20€/Person (Bettwäsche, ein großes und ein kleines Handtuch)</li>
-        <li><a className="agb-link" target="_blank" rel="noopener noreferrer" href="https://www.breege.de/service/kurabgabe/">Kurtaxe</a> gemäß der Vorgaben der Gemeinde Breege</li>
+        <li><a className="agb-link" target="_blank" rel="noopener noreferrer" href="https://www.breege.de/hp2020/wp-content/uploads/2021/12/Kurabgabesatzung_Breege_2022.pdf">Kurtaxe</a> gemäß der Vorgaben der Gemeinde Breege</li>
         <li>Maximal ein Hund - 8€/Nacht (Wir stellen Ihnen Hundenäpfe, ein Handtuch und Beutel zur Verfügung)</li>
     </ul>
 </div>

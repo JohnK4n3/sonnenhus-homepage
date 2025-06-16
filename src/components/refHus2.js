@@ -5,7 +5,7 @@ import Booking from "../pages/Booking";
 
 const RefHus2 = () => {
     return (          
-        <Link to="/hus2" element = {<Booking/>} className="booknow">Zu Hus Zwei</Link>
+        <Link to="/hus2" element = {<Booking/>} className="button-ref">Zu Hus Zwei</Link>
     );
 }
 export default RefHus2;

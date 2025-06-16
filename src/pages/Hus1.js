@@ -139,26 +139,26 @@ function Hus1() {
                             <tr className="trleft">
                                 <td className="tdleft">Hauptsaison</td>
                                 <td>Mindestens 7 Nächte</td>
-                                <td>170€</td>
+                                <td>170€ pro Tag</td>
                                 <td>15. Juni bis 9. September 2025</td>
                             </tr>
                            
                             <tr className="trleft">
                                 <td className="tdleft">Zwischensaison</td>
                                 <td>Mindestens 5 Nächte</td>
-                                <td>120€</td>
+                                <td>120€ pro Tag</td>
                                 <td>12. April bis 14. Juni und 10. September bis 3. November 2025</td>
                             </tr>
                             <tr className="trleft">
                                 <td className="tdleft ">Nebensaison</td>
                                 <td >Mindestens 3 Nächte</td>
-                                <td >85€</td>
+                                <td >85€ pro Tag</td>
                                 <td >4. Januar bis 11. April und 4. November bis 23. Dezember 2025</td>
                             </tr>
                             <tr className="trleft">
                                 <td className="tdleft tdlast">Weihnachten & Silvester</td>
                                 <td className="tdlast">Mindestens 3 Nächte</td>
-                                <td className="tdlast">170€</td>
+                                <td className="tdlast">170€ pro Tag</td>
                                 <td className="tdlast">24. Dezember 2025 bis 4. Januar 2025</td>
                             </tr>
     
@@ -168,25 +168,25 @@ function Hus1() {
         <p><b>Hauptsaison:</b> 15. Juni bis 9. September 2025</p> 
         <ul>
             <li>Mindestens 7 Nächte</li>
-            <li>170€</li>
+            <li>170€ pro Tag</li>
         </ul>
       
 
        <p><b>Zwischensaison:</b> 23. März bis 14. Juni und 10. September bis 3. November 2025 </p>
         <ul>
             <li>Mindestens 5 Nächste</li>
-            <li>120€</li>
+            <li>120€ pro Tag</li>
         </ul>
 
        <p><b>Nebensaison:</b> 4. Januar bis 22. März und 4. November bis 21. Dezember 2025 </p> 
         <ul>
             <li>Mindestens 3 Nächste</li>
-            <li>85€</li>
+            <li>85€ pro Tag</li>
         </ul>
         <p><b>Weihnachten & Silvester:</b> 22. Dezember 2025 bis 2. Januar 2025</p> 
         <ul>
             <li>Mindestens 3 Nächste</li>
-            <li>170€</li>
+            <li>170€ pro Tag</li>
         </ul>
 
 

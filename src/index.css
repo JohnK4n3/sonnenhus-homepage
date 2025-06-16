@@ -405,6 +405,29 @@ padding: 24px 0;
     align-items:flex-start;
   }
 
+
+  .button-ref {
+    display: flex
+    ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    padding: 16px;
+   border-radius: 8px;
+   background-color: #ece0cf;
+   text-align:center;
+   line-height: 100%;
+   font-weight: 600;
+   color: rgb(0, 0, 0);
+   margin-bottom: 20px;
+  }
+  
+  .button-ref:hover {
+    color: var(--linkhover);
+  }
+
+
 /* HUS 1 */
 .text-main a{
 text-decoration:underline;
@@ -746,6 +769,12 @@ margin: 0 auto;
 }
 .slick-prev:before, .slick-next:before { 
   color:rgb(255, 255, 255) !important;
+  font-size: 30px !important;
+  line-height: 1 !important;
+  opacity: 0.75 !important;
+  font-family: 'slick' !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
 
 
@@ -807,7 +836,7 @@ margin: 0 auto;
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1;
 
     opacity: .75;
@@ -1135,8 +1164,9 @@ h3 {
   }
   
   .mobile-links ul {
-    margin-left: 15px;
-    flex-direction:row;
+    margin-left: 10px;
+    flex-direction:column;
+    row-gap: 8px;
   }
 
   .mobile-links li{
@@ -1179,6 +1209,9 @@ h3 {
     width: 100%;
   }
 
+  .button-ref {
+    width: 100%;
+  }
   .contact-form {
     width: 100%;
   }
