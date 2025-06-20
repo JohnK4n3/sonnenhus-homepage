@@ -520,7 +520,8 @@ li > svg {
   }
 
 .wrapper {
-  height: calc(100vh - 150px);
+  
+  min-height: calc(100vh - 212px);
    background-color: white;
 }
 
@@ -528,6 +529,10 @@ li > svg {
 padding: 24px 48px;
 font-size: 24px;
 font-weight:600;
+}
+
+.text-infos-small-mobile {
+  display: none;
 }
 
 .wrapper-infos {
@@ -1099,7 +1104,7 @@ margin: 0 auto;
 }
 
 @media (max-width: 820px){
-
+  
   main {
     padding: 16px;
   }
@@ -1292,4 +1297,10 @@ h3 {
 }
 
 
+
   }
+
+
+
+
+
